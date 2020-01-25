@@ -7,6 +7,18 @@
 #include <algorithm>
 #include <numeric>
 
+#if defined(_MSC_VER)
+#	define DLL_API extern "C" __declspec(dllexport)
+#	define CDECL __cdecl
+#elif defined(__GNUC__)
+#	define DLL_API extern "C" __attribute__((visibility("default")))
+#	define CDECL __attribute__((__cdecl__))
+#else
+#	define DLL_API extern "C"
+#	define CDECL
+#	warning Unhandled dll export attributes
+#endif
+
 using iter = std::vector<double>::const_iterator;
 
 static iter find_first_peak_impl(iter it, iter const end, size_t avg_len)
@@ -144,21 +156,13 @@ static std::vector<size_t> find_peaks(std::vector<double> const &values, size_t 
 	return result;
 }
 
-extern "C" __declspec(dllexport)
-void __cdecl get_peaks(
+DLL_API void CDECL get_peaks(
 	double in[], size_t in_size,
 	double out_freq[], size_t out_freq_max_size,
 	double out_amp[], size_t out_amp_max_size,
 	double df
 )
 {
-	std::vector<double> values;
-	values.resize(in_size);
-
-	std::transform(in, in + in_size, values.begin(), [](double val) {
-		return 20 * std::log10(val);
-	});
-
 	auto const out_size = std::min(out_amp_max_size, out_freq_max_size);
 
 	if (out_size == 0)
@@ -166,11 +170,18 @@ void __cdecl get_peaks(
 		return;
 	}
 
+	std::vector<double> values;
+	values.resize(in_size);
+
+	std::transform(in, in + in_size, values.begin(), [](double val) {
+		return 20 * std::log10(val);
+	});
+
 	auto const peaks = find_peaks(values, out_size, df);
 
 	for (size_t i = 0; i < out_size && i < peaks.size(); ++i)
 	{
 		out_freq[i] = peaks[i] * df;
-		out_amp[i]  = values[peaks[i]];
+		out_amp[i]  = in[peaks[i]];
 	}
 }
