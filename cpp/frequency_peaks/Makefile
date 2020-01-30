@@ -50,11 +50,11 @@ clean:
 
 $(DLL_DEBUG): bin/debug/int/find_peaks.cpp.o
 	$(LD) $(LD_FLAGS_DEBUG) $(addprefix -L,$(LD_LIBDIRS)) $(addprefix -l,$(LD_LIBS)) $^ -o $@
-	$(CP) $@ ../../labview
+	$(CP) $@ ../../labview/mydaq
 
 $(DLL_RELEASE): bin/release/int/find_peaks.cpp.o
 	$(LD) $(LD_FLAGS_RELEASE) $(addprefix -L,$(LD_LIBDIRS)) $(addprefix -l,$(LD_LIBS)) $^ -o $@
-	$(CP) $@ ../../labview
+	$(CP) $@ ../../labview/mydaq
 
 bin/debug/int/find_peaks.cpp.o: ./src/find_peaks.cpp
 	$(CXX) $(CXX_FLAGS_DEBUG) $(addprefix -I,$(CXX_INCLUDES)) $< -o $@
