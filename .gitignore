@@ -1,2 +1,5 @@
+.gitignore
+data
 cpp/frequency_peaks/bin
 *.dll
+*cache
