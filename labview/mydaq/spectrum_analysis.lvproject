@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="92DE913E1A6297EB32E50FDB2343D8CD" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="96ECA19891EBC5829164394444F5B69B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
@@ -64,7 +64,7 @@
 							<Symbols p8:Path="[{http://www.ni.com/SoftFrontPanel/SystemModel}NationalInstruments.InstrumentFramework.AnalogInput]NationalInstruments.InstrumentFramework.AnalogInput" p9:Process.AliasName="mic.task" p9:Process.AssociatedIdentifier="255" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Instance Id="267" Source="{http://www.ni.com/SystemDesigner/Vi}Process.Vi">
-							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="spectrum _analisis.gvi" p9:Process.AssociatedIdentifier="257" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
+							<Symbols p8:Path="[{http://www.ni.com/SystemDesigner/Vi}Process.Vi]Process.Vi" p9:Process.AliasName="spectrum_analisis.gvi" p9:Process.AssociatedIdentifier="257" p9:Process.Visible="False" xmlns:p9="http://www.ni.com/SystemDesigner/SystemModel" xmlns:p8="http://www.ni.com/Core/Proxy" />
 						</Instance>
 						<Superimposition Id="8" Name="Root Superimposition">
 							<Superimpose Source="16">
@@ -161,7 +161,7 @@
 						</SparseEnvoyManager>
 						<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,{http://www.ni.com/ExternalCode}SharedLibrary,{http://www.ni.com/ExternalCode}SharedLibrary.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/DllLibrary/SystemModel}Process.DllLibrary,ProcessBackedProjectServiceMetaFactory" Id="253" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="Library\.sli" StoragePath="Library.sli" />
 						<SourceFileReference Bindings="DAQmx,NationalInstruments.InstrumentFramework.AnalogInput,Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.SourceModel.Task,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SoftFrontPanel/SystemModel}Process.SoftFrontPanel,ProcessBackedProjectServiceMetaFactory" Id="255" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.Task" Name="mic\.task" OverridingModelDefinitionType="NationalInstruments.InstrumentFramework.AnalogInput" StoragePath="mic.task" />
-						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="257" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="spectrum\ _analisis\.gvi" StoragePath="spectrum _analisis.gvi" />
+						<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference,ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,ProcessBackedProjectServiceMetaFactory" Id="257" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="spectrum_analisis\.gvi" StoragePath="spectrum_analisis.gvi" />
 						<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask,EmbeddedReference" Id="271" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask" Name="DAQmx\.AggregateTask">
 							<AggregateTask xmlns="http://www.ni.com/InstrumentFramework/Document/SourceModel/SoftFrontPanel" />
 						</EmbeddedDefinitionReference>
@@ -235,7 +235,7 @@
 				</ComponentDefinition>
 				<SourceFileReference Bindings="EnvoyManager,Envoy,DefinitionReference,{http://www.ni.com/ExternalCode}SharedLibrary,{http://www.ni.com/ExternalCode}SharedLibrary.Moc,FileReference,SourceFileReference" Id="254" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibrary" Name="Library\.sli" StoragePath="Library.sli" />
 				<SourceFileReference Bindings="DAQmx,NationalInstruments.InstrumentFramework.AnalogInput,Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.SourceModel.Task,FileReference,SourceFileReference" Id="256" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.SourceModel.Task" Name="mic\.task" OverridingModelDefinitionType="NationalInstruments.InstrumentFramework.AnalogInput" StoragePath="mic.task" />
-				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="258" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="spectrum\ _analisis\.gvi" StoragePath="spectrum _analisis.gvi" />
+				<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument,NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument.Moc,FileReference,SourceFileReference" Id="258" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="spectrum_analisis\.gvi" StoragePath="spectrum_analisis.gvi" />
 				<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask,EmbeddedReference" Id="272" ModelDefinitionType="NationalInstruments.InstrumentFramework.Document.Compiler.AggregateTask" Name="DAQmx\.AggregateTask">
 					<AggregateTask xmlns="http://www.ni.com/InstrumentFramework/Document/SourceModel/SoftFrontPanel" />
 				</EmbeddedDefinitionReference>
