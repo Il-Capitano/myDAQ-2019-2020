@@ -248,6 +248,78 @@ DLL_API void CDECL output_to_file(
 	file << '\n';
 }
 
+DLL_API uint32_t CDECL guess_letter(
+	double in[], size_t in_size,
+	double samples[], size_t samples_height, size_t samples_width
+)
+{
+	std::vector<double> samples_norm(samples_height * samples_width, 0.0);
+
+	for (size_t i = 0; i < samples_height; ++i)
+	{
+		auto const og_begin = samples + i * samples_width;
+		auto const og_end   = og_begin + samples_width;
+
+		auto const max_val = *std::max_element(og_begin, og_end);
+
+		auto og_it = og_begin;
+		auto it = samples_norm.begin() + i * samples_width;
+		auto const end = it + samples_width;
+		for (; it != end; ++it, ++og_it)
+		{
+			*it = *og_it / max_val;
+		}
+	}
+
+	std::vector<double> in_norm(in_size, 0.0);
+
+	{
+		auto const in_begin = in;
+		auto const in_end   = in + in_size;
+
+		auto const max_val = *std::max_element(in_begin, in_end);
+
+		auto in_it = in_begin;
+		auto it = in_norm.begin();
+		auto const end = in_norm.end();
+		for (; it != end; ++it, ++in_it)
+		{
+			*it = *in_it / max_val;
+		}
+	}
+
+	auto const get_sample = [&, samples_width, samples_height] (size_t i, size_t j)
+	{
+		if (i >= samples_height || j >= samples_width)
+		{
+			return 0.0;
+		}
+		return samples_norm[i * samples_width + j];
+	};
+
+	auto const calculate_error = [] (double x, double y)
+	{
+		auto const x_db = std::log10(x);
+		auto const y_db = std::log10(y);
+		return (x_db - y_db) * (x_db - y_db);
+	};
+
+	std::vector<double> errors(samples_height, 0.0);
+
+	for (size_t i = 0; i < samples_height; ++i)
+	{
+		double error = 0.0;
+		for (size_t j = 0; j < std::min(in_size, samples_width); ++j)
+		{
+			error += calculate_error(in_norm[j], get_sample(i, j));
+		}
+		errors[i] = error;
+	}
+
+	auto const min_it = std::min_element(errors.begin(), errors.end());
+	return min_it - errors.begin();
+}
+
 #ifdef __GNUC__
 #pragma GCC visibility pop
 #endif // gcc
