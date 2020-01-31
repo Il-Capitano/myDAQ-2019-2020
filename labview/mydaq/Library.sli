@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3306AAC3408EFCB09A31B554F1F80952" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="86BE457F46077CFA42B07D98F3E9E895" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="External Code" Name="http://www.ni.com/ExternalCode" OldestCompatibleVersion="4.8.0.0" Version="4.8.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
@@ -203,6 +203,72 @@
 						<NumericType DataType="UInt64" Id="181" />
 						<SharedLibraryDiagramParameter CallDirection="Input" Id="174" Name="amp_size in" />
 						<SharedLibraryDiagramParameter CallDirection="Output" Id="175" Name="amp_size out" />
+					</SharedLibraryParameter>
+				</SharedLibraryEntryPoint>
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,{http://www.ni.com/ExternalCode}SharedLibraryEntryPoint,NationalInstruments.ExternalCodeReference.SourceModel.SharedLibraryEntryPointContent.Moc,EmbeddedReference" Id="208" ModelDefinitionType="{http://www.ni.com/ExternalCode}SharedLibraryEntryPoint" Name="guess_letter">
+				<SharedLibraryEntryPoint Id="209" Symbol="guess_letter" UnmangledSymbol="guess_letter" xmlns="http://www.ni.com/ExternalCode">
+					<Icon Id="210" ListViewIconCrop="0 0 40 70" xmlns="http://www.ni.com/PlatformFramework">
+						<IconPanel Height="[float]70" Id="211" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]70" Id="212" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="213" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="214" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]66" Id="215" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]guess_letter" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" Id="216" />
+								</FileNameText>
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+					<ConnectorPane Height="70" Id="217" ListViewHeight="235" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+						<ConnectorPaneTerminal />
+						<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 80" Parameter="225" />
+						<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 110" Parameter="251" />
+						<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="256" />
+						<ConnectorPaneTerminal Hotspot="15 0" />
+						<ConnectorPaneTerminal Hotspot="25 0" />
+						<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="222" />
+						<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="226" />
+						<ConnectorPaneTerminal Hotspot="40 25" ListViewHotspot="150 125" Parameter="252" />
+						<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="257" />
+						<ConnectorPaneTerminal Hotspot="15 70" />
+						<ConnectorPaneTerminal Hotspot="25 70" />
+						<ConnectorPaneTerminal Hotspot="0 45" ListViewHotspot="0 140" Parameter="264" />
+						<ConnectorPaneTerminal Hotspot="40 45" ListViewHotspot="150 155" Parameter="265" />
+						<ConnectorPaneTerminal Hotspot="0 55" ListViewHotspot="0 170" Parameter="260" />
+						<ConnectorPaneTerminal Hotspot="40 55" ListViewHotspot="150 185" Parameter="261" />
+						<ConnectorPaneTerminal Hotspot="0 65" ListViewHotspot="0 200" Parameter="218" />
+						<ConnectorPaneTerminal Hotspot="40 65" ListViewHotspot="150 215" Parameter="219" />
+					</ConnectorPane>
+					<SharedLibraryDiagramParameter CallDirection="Input" Category="Error" Id="218" Name="error in" />
+					<SharedLibraryDiagramParameter CallDirection="Output" Category="Error" Id="219" Name="error out" />
+					<SharedLibraryParameter Id="220" IsReturnParameter="True" Name="return">
+						<NumericType DataType="UInt32" Id="247" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="222" Name="return" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="223" Name="in">
+						<ArrayType Dimensions="1" ElementDataType="Double" Id="248" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="225" Name="in in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="226" Name="in out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="249" Name="in_size">
+						<NumericType DataType="UInt64" Id="253" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="251" Name="in_size in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="252" Name="in_size out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="254" Name="samples">
+						<ArrayType Dimensions="2" ElementDataType="Double" Id="268" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="256" Name="samples in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="257" Name="samples out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="262" Name="samples_height">
+						<NumericType DataType="UInt64" Id="270" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="264" Name="samples_height in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="265" Name="samples_height out" />
+					</SharedLibraryParameter>
+					<SharedLibraryParameter Id="258" Name="samples_width">
+						<NumericType DataType="UInt64" Id="269" />
+						<SharedLibraryDiagramParameter CallDirection="Input" Id="260" Name="samples_width in" />
+						<SharedLibraryDiagramParameter CallDirection="Output" Id="261" Name="samples_width out" />
 					</SharedLibraryParameter>
 				</SharedLibraryEntryPoint>
 			</EmbeddedDefinitionReference>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A846122BE5238294636FAD8757ABBD32" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FB635C0A698334094B2B27730DF2FD67" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.0.0.49157" FeatureSetName="DAQmx" Name="http://www.ni.com/DAQmx" OldestCompatibleVersion="1.0.0.0" Version="1.0.0.49152" />
@@ -38,20 +38,20 @@
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Height="[float]1600" Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000" />
 		<BlockDiagram Id="12">
-			<WhileLoop Bounds="235 -15 3150 950" DiagramId="15" Id="14">
-				<LoopIteration Bounds="5 920 15 15" Id="16" />
-				<LoopCondition Bounds="2890 865 15 15" Id="17" />
-				<FlatSequence Bounds="20 15 2849 900" Id="22">
-					<FlatSequence.Frame Bounds="5 10 2839 880" Id="23">
-						<Wire Id="237" Joints="N(8998:8477)|(790,160) h(6) v(-45) N(238:23)|(2835,115)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="6544" Joints="N(9001:8477)|(790,175) h(95) v(15) N(7391:o0)|(886,190)" xmlns="http://www.ni.com/PlatformFramework" />
-						<WhileLoop Bounds="890 135 1940 735" DiagramId="6601" Id="6600">
-							<LoopIteration Bounds="5 705 15 15" Id="6602" />
-							<LoopCondition Bounds="1490 670 15 15" Id="6603" />
+			<WhileLoop Bounds="210 -95 3850 1065" DiagramId="15" Id="14">
+				<LoopIteration Bounds="5 1035 15 15" Id="16" />
+				<LoopCondition Bounds="3590 980 15 15" Id="17" />
+				<FlatSequence Bounds="20 15 3549 1015" Id="22">
+					<FlatSequence.Frame Bounds="5 10 3539 995" Id="23">
+						<Wire Id="237" Joints="N(8998:8477)|(790,160) h(31) v(-125) N(238:23)|(3535,35)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="6544" Joints="N(9001:8477)|(790,175) h(85) v(50) N(7391:o0)|(886,225)" xmlns="http://www.ni.com/PlatformFramework" />
+						<WhileLoop Bounds="890 135 2635 850" DiagramId="6601" Id="6600">
+							<LoopIteration Bounds="5 820 15 15" Id="6602" />
+							<LoopCondition Bounds="1515 785 15 15" Id="6603" />
 							<DataAccessor Bounds="200 30 40 15" DataItem="46" Id="53" Label="54" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Wfm(Double)[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<FFTSpectrumMagPhaseContinuousMultipleChannel Bounds="266 75 50 50" DomainName="NI:Analysis:Measurement" Id="254" ResolveFailedHint="" Target="NI:Analysis:Measurement:FFT\ Spectrum\ \(Mag\-Phase\)\ for\ N\ Chan\.gvi">
+							<FFTSpectrumMagPhaseContinuousMultipleChannel Bounds="266 155 50 50" DomainName="NI:Analysis:Measurement" Id="254" ResolveFailedHint="" Target="NI:Analysis:Measurement:FFT\ Spectrum\ \(Mag\-Phase\)\ for\ N\ Chan\.gvi">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="signal" />
@@ -69,9 +69,9 @@
 									</MethodDeclaration>
 								</p.MethodDeclaration>
 								<Terminal DataType="Wfm(Double)[]" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@48423a57a43f4fffaf8c2f41a2d48b20" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@d2988ee9f9754dd288837e5cd8c86d1e" Direction="Input" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
-								<Terminal DataType="@c949a42302734554a00518c1be37191a" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@64ffe66817aa4f569064ce58c836c9de" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@5c4cdefc29e24b74ac3345336f99ea24" Direction="Input" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
+								<Terminal DataType="@4b905316fedf45f8bb0883474e74b5d3" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Boolean" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Double" Direction="Input" Hotspot="35 0" Id="T2" xmlns="http://www.ni.com/PlatformFramework" />
@@ -84,7 +84,7 @@
 							<DataAccessor Bounds="425 60 40 15" DataItem="617" Id="618" Label="638" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="@badaece408c64409bcfcbe29aa675226" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<MethodCall Bounds="830 145 164 430" DomainName="Library.sli" Id="6409" ResolveFailedHint="" Target="Library\.sli:get_peaks" Template="List" xmlns="http://www.ni.com/MocCommon">
+							<MethodCall Bounds="830 260 164 430" DomainName="Library.sli" Id="6409" ResolveFailedHint="" Target="Library\.sli:get_peaks" Template="List" xmlns="http://www.ni.com/MocCommon">
 								<p.MethodDeclaration>
 									<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 										<Parameter Id="L0" Desc="in in" />
@@ -142,28 +142,28 @@
 								<Terminal DataType="Double" Direction="Output" Hotspot="164 380" Id="R11" xmlns="http://www.ni.com/PlatformFramework" />
 								<Terminal DataType="Error" Direction="Output" Hotspot="164 410" Id="R12" xmlns="http://www.ni.com/PlatformFramework" />
 							</MethodCall>
-							<ArrayIndex Bounds="441 100 40 30" Id="6442" Terminals="array=6429, c0t0v=6459, c0out=8378" />
-							<Literal Bounds="371 120 40 15" DataType="Int32" Facade="Numeric" Id="6458" Label="6460" xmlns="http://www.ni.com/MocCommon">
+							<ArrayIndex Bounds="441 180 40 30" Id="6442" Terminals="array=6429, c0t0v=6459, c0out=8378" />
+							<Literal Bounds="371 200 40 15" DataType="Int32" Facade="Numeric" Id="6458" Label="6460" xmlns="http://www.ni.com/MocCommon">
 								<p.Data>0</p.Data>
 								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 							</Literal>
-							<DataAccessor Bounds="1070 220 40 15" DataItem="6517" Id="6521" Label="6522" xmlns="http://www.ni.com/MocCommon">
+							<DataAccessor Bounds="1070 335 40 15" DataItem="6517" Id="6521" Label="6522" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<DataAccessor Bounds="1070 310 40 15" DataItem="6524" Id="6528" Label="6529" xmlns="http://www.ni.com/MocCommon">
+							<DataAccessor Bounds="1070 425 40 15" DataItem="6524" Id="6528" Label="6529" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<InitializeArray Bounds="540 420 40 30" Id="6578" Terminals="element=6584, outArray=8388, c0t0v=8387" />
-							<Literal Bounds="470 420 40 15" DataType="Double" Facade="Numeric" Id="6583" xmlns="http://www.ni.com/MocCommon">
+							<InitializeArray Bounds="540 535 40 30" Id="6578" Terminals="element=6584, outArray=8388, c0t0v=11503" />
+							<Literal Bounds="470 535 40 15" DataType="Double" Facade="Numeric" Id="6583" xmlns="http://www.ni.com/MocCommon">
 								<p.Data>0x0</p.Data>
 								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 							</Literal>
-							<InitializeArray Bounds="540 475 40 30" Id="6585" Terminals="element=6589, outArray=8389, c0t0v=8387" />
-							<Literal Bounds="470 475 40 15" DataType="Double" Facade="Numeric" Id="6588" xmlns="http://www.ni.com/MocCommon">
+							<InitializeArray Bounds="540 590 40 30" Id="6585" Terminals="element=6589, outArray=8389, c0t0v=11503" />
+							<Literal Bounds="470 590 40 15" DataType="Double" Facade="Numeric" Id="6588" xmlns="http://www.ni.com/MocCommon">
 								<p.Data>0x0</p.Data>
 								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 							</Literal>
-							<DataAccessor Bounds="80 245 40 15" DataItem="6594" Id="6595" Label="6597" xmlns="http://www.ni.com/MocCommon">
+							<DataAccessor Bounds="80 360 40 15" DataItem="6594" Id="6595" Label="6597" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
 							<NodeLabel AttachedTo="53" Bounds="245 30 25 14" Id="54" xmlns="http://www.ni.com/PlatformFramework">
@@ -172,142 +172,141 @@
 							<NodeLabel AttachedTo="618" Bounds="470 60 52 14" Id="638" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>spectrum</p.Text>
 							</NodeLabel>
-							<NodeLabel AttachedTo="6458" Bounds="336 120 30 15" Id="6460" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="6458" Bounds="336 200 30 15" Id="6460" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>index</p.Text>
 							</NodeLabel>
-							<NodeLabel AttachedTo="6521" Bounds="1115 220 69 14" Id="6522" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>out_freq out</p.Text>
+							<NodeLabel AttachedTo="6521" Bounds="1115 335 69 14" Id="6522" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>frequency peaks</p.Text>
 							</NodeLabel>
-							<NodeLabel AttachedTo="6528" Bounds="1115 310 71 14" Id="6529" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>out_amp out</p.Text>
+							<NodeLabel AttachedTo="6528" Bounds="1115 425 71 14" Id="6529" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>amplitudes</p.Text>
 							</NodeLabel>
-							<NodeLabel AttachedTo="6595" Bounds="53 245 22 14" Id="6597" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>size</p.Text>
+							<NodeLabel AttachedTo="6595" Bounds="53 360 22 14" Id="6597" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>peaks count</p.Text>
 							</NodeLabel>
-							<Wire Id="7384" Joints="N(294:Value)|(120,175) h(5) v(-115) h(166) N(254:T1)|(291,75)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="7387" Joints="N(7388:i0)|(4,120) N(254:L4)|(266,120)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="7390" Joints="N(7391:i0)|(4,50) h(49) B(1) v(-15) N(53:Value)|(203,35) B(1) v(30) N(254:L0)|(266,80)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="6429" Joints="N(254:R0)|(316,80) h(85) B(1) v(-15) N(618:Value)|(428,65) B(1) v(25) N(6442:array)|(441,105)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="6459" Joints="N(6458:Out)|(411,125) N(6442:c0t0v)|(441,125)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="6584" Joints="N(6583:Out)|(510,425) N(6578:element)|(540,425)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="6589" Joints="N(6588:Out)|(510,480) N(6585:element)|(540,480)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="7396" Joints="N(254:R4)|(316,120) h(49) v(-70) N(7397:i0)|(1926,50)" xmlns="http://www.ni.com/PlatformFramework" />
-							<DataAccessor Bounds="80 170 40 15" DataItem="290" Id="294" Label="295" xmlns="http://www.ni.com/MocCommon">
-								<Terminal DataType="@d2988ee9f9754dd288837e5cd8c86d1e" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="7384" Joints="N(294:Value)|(120,290) h(5) v(-150) h(166) N(254:T1)|(291,155)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="7387" Joints="N(7388:i0)|(4,200) N(254:L4)|(266,200)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="7390" Joints="N(7391:i0)|(4,85) h(49) B(1) v(-50) N(53:Value)|(203,35) B(1) v(75) N(254:L0)|(266,160)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="6429" Joints="N(254:R0)|(316,160) h(85) B(1) v(-95) N(618:Value)|(428,65) B(1) v(25) N(6442:array)|(441,185)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="6459" Joints="N(6458:Out)|(411,205) N(6442:c0t0v)|(441,205)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="6584" Joints="N(6583:Out)|(510,540) N(6578:element)|(540,540)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="6589" Joints="N(6588:Out)|(510,595) N(6585:element)|(540,595)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="7396" Joints="N(254:R4)|(316,200) h(74) v(-191) h(1950) N(7397:i0)|(2340,4)" xmlns="http://www.ni.com/PlatformFramework" />
+							<DataAccessor Bounds="80 285 40 15" DataItem="290" Id="294" Label="295" xmlns="http://www.ni.com/MocCommon">
+								<Terminal DataType="@5c4cdefc29e24b74ac3345336f99ea24" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<NodeLabel AttachedTo="294" Bounds="5 170 70 14" Id="295" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="294" Bounds="5 285 70 14" Id="295" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>window type</p.Text>
 							</NodeLabel>
-							<LogicalOr Bounds="1450 665 25 20" Id="8116" Terminals="o=8118, c0t0v=10529, c1t0v=10526" />
-							<Wire Id="8118" Joints="N(8116:o)|(1475,675) N(6603:Input)|(1490,675)" xmlns="http://www.ni.com/PlatformFramework" />
-							<PropertyNode Bounds="550 105 93 35" HasErrorTerminals="False" Id="8377" InstanceDataType="@a8106957b9c74a119f0e3cfccf03e781" Mode="InstanceProperties">
+							<LogicalOr Bounds="1475 780 25 20" Id="8116" Terminals="o=8118, c0t0v=10529, c1t0v=10526" />
+							<Wire Id="8118" Joints="N(8116:o)|(1500,790) N(6603:Input)|(1515,790)" xmlns="http://www.ni.com/PlatformFramework" />
+							<PropertyNode Bounds="550 185 93 35" HasErrorTerminals="False" Id="8377" InstanceDataType="@a8106957b9c74a119f0e3cfccf03e781" Mode="InstanceProperties">
 								<PropertyItemTerminal DataType="Double[]" Hotspot="93 15" Id="c0t0v" Path="magnitude" Usage="Optional" />
 							</PropertyNode>
-							<Wire Id="8378" Joints="N(6442:c0out)|(481,125) h(14) B(1) v(-15) N(8377:instance in)|(550,110) B(1) v(230) N(8384:instance in)|(710,355)" xmlns="http://www.ni.com/PlatformFramework" />
-							<InitializeArray Bounds="539 530 40 30" Id="8380" Terminals="element=8382, outArray=8390, c0t0v=8387" />
-							<Literal Bounds="469 530 40 15" DataType="Double" Facade="Numeric" Id="8381" xmlns="http://www.ni.com/MocCommon">
+							<Wire Id="8378" Joints="N(6442:c0out)|(481,205) h(14) B(1) v(-15) N(8377:instance in)|(550,190) B(1) v(265) N(8384:instance in)|(710,470)" xmlns="http://www.ni.com/PlatformFramework" />
+							<InitializeArray Bounds="539 645 40 30" Id="8380" Terminals="element=8382, outArray=8390, c0t0v=11503" />
+							<Literal Bounds="469 645 40 15" DataType="Double" Facade="Numeric" Id="8381" xmlns="http://www.ni.com/MocCommon">
 								<p.Data>0x0</p.Data>
 								<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 							</Literal>
-							<Wire Id="8382" Joints="N(8381:Out)|(509,535) N(8380:element)|(539,535)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8383" Joints="N(8377:c0t0v)|(643,120) h(67) B(1) h(75) v(60) N(6409:L0)|(830,180) B(1) v(20) N(8412:array)|(735,140)" xmlns="http://www.ni.com/PlatformFramework" />
-							<PropertyNode Bounds="710 350 50 35" HasErrorTerminals="False" Id="8384" InstanceDataType="@a8106957b9c74a119f0e3cfccf03e781" Mode="InstanceProperties">
+							<Wire Id="8382" Joints="N(8381:Out)|(509,650) N(8380:element)|(539,650)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8383" Joints="N(8377:c0t0v)|(643,200) h(67) B(1) h(75) v(95) N(6409:L0)|(830,295) B(1) v(55) N(8412:array)|(735,255)" xmlns="http://www.ni.com/PlatformFramework" />
+							<PropertyNode Bounds="710 465 50 35" HasErrorTerminals="False" Id="8384" InstanceDataType="@a8106957b9c74a119f0e3cfccf03e781" Mode="InstanceProperties">
 								<PropertyItemTerminal DataType="Double" Hotspot="50 15" Id="c0t0v" Path="df" Usage="Optional" />
 							</PropertyNode>
-							<Wire Id="8386" Joints="N(8384:c0t0v)|(760,365) h(20) v(-20) N(6409:L8)|(830,345)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8387" Joints="N(6595:Value)|(120,250) h(5) v(250) h(260) B(3) N(6585:c0t0v)|(540,500) B(3) v(-55) N(6578:c0t0v)|(540,445) B(3) v(55) N(8380:c0t0v)|(539,555)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8388" Joints="N(6578:outArray)|(580,425) h(35) v(-215) h(115) B(3) N(6409:L2)|(830,210) B(3) v(20) N(8408:array)|(740,230)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8389" Joints="N(6585:outArray)|(580,480) h(55) v(-225) h(95) B(3) N(6409:L4)|(830,255) B(3) v(20) N(8400:array)|(740,275)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8390" Joints="N(8380:outArray)|(579,535) h(81) v(-235) h(70) B(3) N(6409:L6)|(830,300) B(3) v(20) N(8404:array)|(740,320)" xmlns="http://www.ni.com/PlatformFramework" />
-							<DataAccessor Bounds="1069 265 40 15" DataItem="8393" Id="8397" Label="8398" xmlns="http://www.ni.com/MocCommon">
+							<Wire Id="8386" Joints="N(8384:c0t0v)|(760,480) h(20) v(-20) N(6409:L8)|(830,460)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8388" Joints="N(6578:outArray)|(580,540) h(35) v(-215) h(115) B(3) N(6409:L2)|(830,325) B(3) v(20) N(8408:array)|(740,345)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8389" Joints="N(6585:outArray)|(580,595) h(55) v(-225) h(95) B(3) N(6409:L4)|(830,370) B(3) v(20) N(8400:array)|(740,390)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8390" Joints="N(8380:outArray)|(579,650) h(81) v(-235) h(70) B(3) N(6409:L6)|(830,415) B(3) v(20) N(8404:array)|(740,435)" xmlns="http://www.ni.com/PlatformFramework" />
+							<DataAccessor Bounds="1069 380 40 15" DataItem="8393" Id="8397" Label="8398" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<NodeLabel AttachedTo="8397" Bounds="1114 265 70 14" Id="8398" xmlns="http://www.ni.com/PlatformFramework">
-								<p.Text>out_hvw out</p.Text>
+							<NodeLabel AttachedTo="8397" Bounds="1114 380 70 14" Id="8398" xmlns="http://www.ni.com/PlatformFramework">
+								<p.Text>half value widths</p.Text>
 							</NodeLabel>
-							<ArraySize Bounds="740 270 40 20" Id="8400" />
-							<ToUnsignedQuadInteger Bounds="785 280 30 10" Id="8401" />
-							<Wire Id="8402" Joints="N(8400:size(s\))|(780,285) N(8401:number)|(788,285)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8403" Joints="N(8401:unsigned 64bit integer)|(815,285) N(6409:L5)|(830,285)" xmlns="http://www.ni.com/PlatformFramework" />
-							<ArraySize Bounds="740 315 40 20" Id="8404" />
-							<ToUnsignedQuadInteger Bounds="785 325 30 10" Id="8405" />
-							<Wire Id="8406" Joints="N(8404:size(s\))|(780,330) N(8405:number)|(788,330)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8407" Joints="N(8405:unsigned 64bit integer)|(815,330) N(6409:L7)|(830,330)" xmlns="http://www.ni.com/PlatformFramework" />
-							<ArraySize Bounds="740 225 40 20" Id="8408" />
-							<ToUnsignedQuadInteger Bounds="785 235 30 10" Id="8409" />
-							<Wire Id="8410" Joints="N(8409:unsigned 64bit integer)|(815,240) N(6409:L3)|(830,240)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8411" Joints="N(8408:size(s\))|(780,240) N(8409:number)|(788,240)" xmlns="http://www.ni.com/PlatformFramework" />
-							<ArraySize Bounds="735 135 40 20" Id="8412" />
-							<ToUnsignedQuadInteger Bounds="780 145 30 10" Id="8413" />
-							<Wire Id="8414" Joints="N(8413:unsigned 64bit integer)|(810,150) h(5) v(45) N(6409:L1)|(830,195)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="8416" Joints="N(8412:size(s\))|(775,150) N(8413:number)|(783,150)" xmlns="http://www.ni.com/PlatformFramework" />
-							<DataAccessor Bounds="400 610 40 15" DataItem="8420" Id="8423" Label="8424" xmlns="http://www.ni.com/MocCommon">
+							<ArraySize Bounds="740 385 40 20" Id="8400" />
+							<ToUnsignedQuadInteger Bounds="785 395 30 10" Id="8401" />
+							<Wire Id="8402" Joints="N(8400:size(s\))|(780,400) N(8401:number)|(788,400)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8403" Joints="N(8401:unsigned 64bit integer)|(815,400) N(6409:L5)|(830,400)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ArraySize Bounds="740 430 40 20" Id="8404" />
+							<ToUnsignedQuadInteger Bounds="785 440 30 10" Id="8405" />
+							<Wire Id="8406" Joints="N(8404:size(s\))|(780,445) N(8405:number)|(788,445)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8407" Joints="N(8405:unsigned 64bit integer)|(815,445) N(6409:L7)|(830,445)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ArraySize Bounds="740 340 40 20" Id="8408" />
+							<ToUnsignedQuadInteger Bounds="785 350 30 10" Id="8409" />
+							<Wire Id="8410" Joints="N(8409:unsigned 64bit integer)|(815,355) N(6409:L3)|(830,355)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8411" Joints="N(8408:size(s\))|(780,355) N(8409:number)|(788,355)" xmlns="http://www.ni.com/PlatformFramework" />
+							<ArraySize Bounds="735 250 40 20" Id="8412" />
+							<ToUnsignedQuadInteger Bounds="780 260 30 10" Id="8413" />
+							<Wire Id="8414" Joints="N(8413:unsigned 64bit integer)|(810,265) h(5) v(45) N(6409:L1)|(830,310)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="8416" Joints="N(8412:size(s\))|(775,265) N(8413:number)|(783,265)" xmlns="http://www.ni.com/PlatformFramework" />
+							<DataAccessor Bounds="400 725 40 15" DataItem="8420" Id="8423" Label="8424" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<NodeLabel AttachedTo="8423" Bounds="343 610 52 14" Id="8424" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="8423" Bounds="343 725 52 14" Id="8424" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>threshold</p.Text>
 							</NodeLabel>
-							<Wire Id="8425" Joints="N(8423:Value)|(440,615) h(350) v(-255) N(6409:L9)|(830,360)" xmlns="http://www.ni.com/PlatformFramework" />
-							<DataAccessor Bounds="400 630 40 15" DataItem="8426" Id="8429" Label="8430" xmlns="http://www.ni.com/MocCommon">
+							<Wire Id="8425" Joints="N(8423:Value)|(440,730) h(350) v(-255) N(6409:L9)|(830,475)" xmlns="http://www.ni.com/PlatformFramework" />
+							<DataAccessor Bounds="400 745 40 15" DataItem="8426" Id="8429" Label="8430" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<NodeLabel AttachedTo="8429" Bounds="309 630 86 14" Id="8430" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="8429" Bounds="309 745 86 14" Id="8430" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>min peak width</p.Text>
 							</NodeLabel>
-							<Wire Id="8431" Joints="N(8429:Value)|(440,635) h(360) v(-260) N(6409:L10)|(830,375)" xmlns="http://www.ni.com/PlatformFramework" />
-							<DataAccessor Bounds="400 650 40 15" DataItem="8432" Id="8435" Label="8436" xmlns="http://www.ni.com/MocCommon">
+							<Wire Id="8431" Joints="N(8429:Value)|(440,750) h(360) v(-260) N(6409:L10)|(830,490)" xmlns="http://www.ni.com/PlatformFramework" />
+							<DataAccessor Bounds="400 765 40 15" DataItem="8432" Id="8435" Label="8436" xmlns="http://www.ni.com/MocCommon">
 								<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 							</DataAccessor>
-							<NodeLabel AttachedTo="8435" Bounds="306 650 89 14" Id="8436" xmlns="http://www.ni.com/PlatformFramework">
+							<NodeLabel AttachedTo="8435" Bounds="306 765 89 14" Id="8436" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>max peak width</p.Text>
 							</NodeLabel>
-							<Wire Id="8437" Joints="N(8435:Value)|(440,655) h(370) v(-265) N(6409:L11)|(830,390)" xmlns="http://www.ni.com/PlatformFramework" />
-							<WhileLoop Bounds="1235 130 680 460" DiagramId="7413" Id="7412">
-								<LoopIteration Bounds="5 430 15 15" Id="7414" />
-								<LoopCondition Bounds="280 200 15 15" Id="7415" />
-								<DataAccessor Bounds="80 220 40 15" DataItem="7403" Id="7406" Label="7407" xmlns="http://www.ni.com/MocCommon">
+							<Wire Id="8437" Joints="N(8435:Value)|(440,770) h(370) v(-265) N(6409:L11)|(830,505)" xmlns="http://www.ni.com/PlatformFramework" />
+							<WhileLoop Bounds="1200 65 1400 640" DiagramId="7413" Id="7412">
+								<LoopIteration Bounds="5 610 15 15" Id="7414" />
+								<LoopCondition Bounds="340 380 15 15" Id="7415" />
+								<DataAccessor Bounds="140 400 40 15" DataItem="7403" Id="7406" Label="7407" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 								</DataAccessor>
-								<NodeLabel AttachedTo="7406" Bounds="38 220 37 14" Id="7407" xmlns="http://www.ni.com/PlatformFramework">
+								<NodeLabel AttachedTo="7406" Bounds="98 400 37 14" Id="7407" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>restart</p.Text>
 								</NodeLabel>
-								<DataAccessor Bounds="80 195 40 15" DataItem="7511" Id="7514" Label="7515" xmlns="http://www.ni.com/MocCommon">
+								<DataAccessor Bounds="140 375 40 15" DataItem="7511" Id="7514" Label="7515" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 								</DataAccessor>
-								<NodeLabel AttachedTo="7514" Bounds="15 195 60 14" Id="7515" xmlns="http://www.ni.com/PlatformFramework">
+								<NodeLabel AttachedTo="7514" Bounds="75 375 60 14" Id="7515" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>recalculate</p.Text>
 								</NodeLabel>
-								<DataAccessor Bounds="80 245 40 15" DataItem="7516" Id="7519" Label="7520" xmlns="http://www.ni.com/MocCommon">
+								<DataAccessor Bounds="140 425 40 15" DataItem="7516" Id="7519" Label="7520" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 								</DataAccessor>
-								<NodeLabel AttachedTo="7519" Bounds="51 245 24 14" Id="7520" xmlns="http://www.ni.com/PlatformFramework">
+								<NodeLabel AttachedTo="7519" Bounds="111 425 24 14" Id="7520" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>stop</p.Text>
 								</NodeLabel>
-								<Wire Id="8097" Joints="N(7519:Value)|(120,250) h(5) B(1) v(-15) N(8111:c1t0v)|(197,235) B(1) N(8102:i0)|(125,446)" xmlns="http://www.ni.com/PlatformFramework" />
-								<LogicalOr Bounds="195 220 25 20" Id="8111" Terminals="o=9954, c0t0v=9944, c1t0v=8097" />
-								<Wait Bounds="90 40 40 40" Id="8124" />
-								<Literal Bounds="20 55 40 15" DataType="UInt32" Facade="Numeric" Id="8125" Label="8127" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="8097" Joints="N(7519:Value)|(180,430) h(5) B(1) v(-15) N(8111:c1t0v)|(257,415) B(1) N(8102:i0)|(185,626)" xmlns="http://www.ni.com/PlatformFramework" />
+								<LogicalOr Bounds="255 400 25 20" Id="8111" Terminals="o=9954, c0t0v=9944, c1t0v=8097" />
+								<Wait Bounds="200 285 40 40" Id="8124" />
+								<Literal Bounds="130 300 40 15" DataType="UInt32" Facade="Numeric" Id="8125" Label="8127" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>50</p.Data>
 									<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 								</Literal>
-								<Wire Id="8126" Joints="N(8125:Out)|(60,60) N(8124:time to wait)|(90,60)" xmlns="http://www.ni.com/PlatformFramework" />
-								<NodeLabel AttachedTo="8125" Bounds="-15 55 30 15" Id="8127" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+								<Wire Id="8126" Joints="N(8125:Out)|(170,305) N(8124:time to wait)|(200,305)" xmlns="http://www.ni.com/PlatformFramework" />
+								<NodeLabel AttachedTo="8125" Bounds="95 300 30 15" Id="8127" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>milliseconds to wait</p.Text>
 								</NodeLabel>
-								<LogicalOr Bounds="235 195 25 20" Id="9942" Terminals="o=9955, c0t0v=9952, c1t0v=9954" />
-								<Wire Id="9944" Joints="N(7406:Value)|(120,225) h(30) B(1) N(8111:c0t0v)|(197,225) B(1) N(7504:i0)|(150,446)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="9952" Joints="N(7514:Value)|(120,200) N(9942:c0t0v)|(237,200)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="9954" Joints="N(8111:o)|(220,230) h(5) v(-20) N(9942:c1t0v)|(237,210)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="9955" Joints="N(9942:o)|(260,205) N(7415:Input)|(280,205)" xmlns="http://www.ni.com/PlatformFramework" />
-								<DataAccessor Bounds="80 145 40 15" DataItem="8370" Id="8373" Label="8374" xmlns="http://www.ni.com/MocCommon">
+								<LogicalOr Bounds="295 375 25 20" Id="9942" Terminals="o=9955, c0t0v=9952, c1t0v=9954" />
+								<Wire Id="9944" Joints="N(7406:Value)|(180,405) h(30) B(1) N(8111:c0t0v)|(257,405) B(1) N(7504:i0)|(210,626)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="9952" Joints="N(7514:Value)|(180,380) N(9942:c0t0v)|(297,380)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="9954" Joints="N(8111:o)|(280,410) h(5) v(-20) N(9942:c1t0v)|(297,390)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="9955" Joints="N(9942:o)|(320,385) N(7415:Input)|(340,385)" xmlns="http://www.ni.com/PlatformFramework" />
+								<DataAccessor Bounds="140 325 40 15" DataItem="8370" Id="8373" Label="8374" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="Path" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 								</DataAccessor>
-								<NodeLabel AttachedTo="8373" Bounds="29 145 46 14" Id="8374" xmlns="http://www.ni.com/PlatformFramework">
+								<NodeLabel AttachedTo="8373" Bounds="89 325 46 14" Id="8374" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>file path</p.Text>
 								</NodeLabel>
-								<Wire Id="10541" Joints="N(8373:Value)|(120,150) h(180) v(-85) N(10544:9957)|(321,65)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="10562" Joints="N(10843:Value)|(120,175) N(9960:9957)|(321,175)" xmlns="http://www.ni.com/PlatformFramework" />
-								<CaseStructure Bounds="325 35 335 355" Default="9958" Id="9957" Selected="9959" UserSelectorBounds="124 0 88 17">
+								<Wire Id="10541" Joints="N(8373:Value)|(180,330) h(180) v(-85) N(10544:9957)|(481,245)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="10562" Joints="N(10843:Value)|(180,355) N(9960:9957)|(481,355)" xmlns="http://www.ni.com/PlatformFramework" />
+								<CaseStructure Bounds="485 215 335 355" Default="9958" Id="9957" Selected="9959" UserSelectorBounds="124 0 88 17">
 									<CaseStructure.Case Bounds="5 5 325 345" Id="9958" Pattern="False" />
 									<CaseStructure.Case Bounds="5 5 325 345" Id="9959" Pattern="True">
 										<MethodCall Bounds="210 25 109 280" DomainName="Library.sli" Id="8123" ResolveFailedHint="" Target="Library\.sli:output_to_file" Template="List" xmlns="http://www.ni.com/MocCommon">
@@ -371,33 +370,181 @@
 									<CaseStructure.Tunnel Bounds="55 346 10 13" Docking="Bottom" Id="9973" Terminals="9957=10794, 9958, 9959=9985" />
 									<CaseStructure.Tunnel Bounds="-4 25 13 10" Docking="Left" Id="10544" Terminals="9957=10541, 9958, 9959=10545" />
 								</CaseStructure>
-								<Wire Id="10788" Joints="N(10789:i0)|(4,400) h(341) N(9967:9957)|(345,394)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="10791" Joints="N(10792:i0)|(4,410) h(361) N(9970:9957)|(365,394)" xmlns="http://www.ni.com/PlatformFramework" />
-								<Wire Id="10794" Joints="N(10795:i0)|(4,425) h(381) N(9973:9957)|(385,394)" xmlns="http://www.ni.com/PlatformFramework" />
-								<DataAccessor Bounds="80 170 40 15" DataItem="10840" Id="10843" Label="10844" xmlns="http://www.ni.com/MocCommon">
+								<Wire Id="10788" Joints="N(10789:i0)|(4,580) h(501) N(9967:9957)|(505,574)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="10791" Joints="N(10792:i0)|(4,590) h(521) N(9970:9957)|(525,574)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="10794" Joints="N(10795:i0)|(4,600) h(541) N(9973:9957)|(545,574)" xmlns="http://www.ni.com/PlatformFramework" />
+								<DataAccessor Bounds="140 350 40 15" DataItem="10840" Id="10843" Label="10844" xmlns="http://www.ni.com/MocCommon">
 									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 								</DataAccessor>
-								<NodeLabel AttachedTo="10843" Bounds="14 170 61 14" Id="10844" xmlns="http://www.ni.com/PlatformFramework">
+								<NodeLabel AttachedTo="10843" Bounds="74 350 61 14" Id="10844" xmlns="http://www.ni.com/PlatformFramework">
 									<p.Text>save to file</p.Text>
 								</NodeLabel>
-								<LoopTunnel Bounds="150 451 10 13" Docking="Bottom" Id="7504" Terminals="o0=10529, i0=9944" />
-								<LoopTunnel Bounds="125 451 10 13" Docking="Bottom" Id="8102" Terminals="o0=10526, i0=8097" />
-								<LoopTunnel Bounds="-4 400 13 10" Docking="Left" Id="10789" Terminals="o0=10532, i0=10788" />
-								<LoopTunnel Bounds="-4 410 13 10" Docking="Left" Id="10792" Terminals="o0=10535, i0=10791" />
-								<LoopTunnel Bounds="-4 425 13 10" Docking="Left" Id="10795" Terminals="o0=10538, i0=10794" />
+								<DataAccessor Bounds="195 145 40 15" DataItem="10867" Id="10870" Label="10871" xmlns="http://www.ni.com/MocCommon">
+									<Terminal DataType="@7f072296d3e2448aa387fef69bf2be5f" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+								</DataAccessor>
+								<NodeLabel AttachedTo="10870" Bounds="158 145 32 14" Id="10871" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>letter</p.Text>
+								</NodeLabel>
+								<DataAccessor Bounds="195 125 40 15" DataItem="11007" Id="11010" Label="11011" xmlns="http://www.ni.com/MocCommon">
+									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+								</DataAccessor>
+								<NodeLabel AttachedTo="11010" Bounds="95 125 95 14" Id="11011" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>save to clipboard</p.Text>
+								</NodeLabel>
+								<ReshapeArray Bounds="140 55 40 40" Id="11154" Terminals="inArray=11167, outArray=11162, c0t0v=11172, c1t0v=11164" VerticalChunkCount="2" />
+								<Wire Id="11162" Joints="N(11154:outArray)|(180,60) N(11487:11194)|(276,60)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="11164" Joints="N(10889:i0)|(4,175) h(131) v(-85) N(11154:c1t0v)|(140,90)" xmlns="http://www.ni.com/PlatformFramework" />
+								<ArraySize Bounds="20 75 40 20" Id="11165" />
+								<Wire Id="11167" Joints="N(11019:i0)|(4,60) h(11) B(1) N(11154:inArray)|(140,60) B(1) v(20) N(11165:array)|(20,80)" xmlns="http://www.ni.com/PlatformFramework" />
+								<ArrayIndex Bounds="80 85 40 30" Id="11170" Terminals="array=11171, c0t0v=11175, c0out=11172" />
+								<Wire Id="11171" Joints="N(11165:size(s\))|(60,90) N(11170:array)|(80,90)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="11172" Joints="N(11170:c0out)|(120,110) h(5) v(-30) N(11154:c0t0v)|(140,80)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Literal Bounds="20 105 40 15" DataType="Int32" Facade="Numeric" Id="11173" Label="11174" xmlns="http://www.ni.com/MocCommon">
+									<p.Data>0</p.Data>
+									<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+								</Literal>
+								<NodeLabel AttachedTo="11173" Bounds="-15 105 30 15" Id="11174" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>index</p.Text>
+								</NodeLabel>
+								<Wire Id="11175" Joints="N(11173:Out)|(60,110) N(11170:c0t0v)|(80,110)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="11176" Joints="N(11031:i0)|(4,385) h(61) v(-210) h(265) B(3) N(11717:11504)|(866,175) B(3) N(11490:11194)|(330,164)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="11177" Joints="N(11493:11194)|(524,60) h(61) B(1) h(315) B(2) N(11018:7413)|(1386,60) B(2) N(11723:11504)|(900,76) B(1) v(35) N(11178:array)|(595,95)" xmlns="http://www.ni.com/PlatformFramework" />
+								<ArrayIndex Bounds="595 90 40 40" Id="11178" Rank="2" Terminals="array=11177, c0t0v=11714, c0t1v, c0out=11185" />
+								<Wire Id="11185" Joints="N(11178:c0out)|(635,115) N(11191:Value)|(658,115)" xmlns="http://www.ni.com/PlatformFramework" />
+								<DataAccessor Bounds="655 110 40 15" DataItem="11187" Id="11191" Label="11192" xmlns="http://www.ni.com/MocCommon">
+									<Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+								</DataAccessor>
+								<NodeLabel AttachedTo="11191" Bounds="700 110 49 14" Id="11192" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>letter amplitudes</p.Text>
+								</NodeLabel>
+								<CaseStructure Bounds="280 35 240 125" Default="11195" Id="11194" Selected="11196" UserSelectorBounds="76 0 88 17">
+									<CaseStructure.Case Bounds="5 5 230 115" Id="11195" Pattern="False">
+										<Wire Id="11496" Joints="N(11487:11195)|(4,20) N(11493:11195)|(226,20)" xmlns="http://www.ni.com/PlatformFramework" />
+									</CaseStructure.Case>
+									<CaseStructure.Case Bounds="5 5 230 115" Id="11196" Pattern="True">
+										<InsertIntoArray Bounds="145 45 40 50" Id="11072" Rank="2" Terminals="inArray=11087, outArray=11492, index0=11483, index1, c0t0v=11489" />
+										<DeleteFromArray Bounds="40 15 40 50" Id="11085" Rank="2" Terminals="inArray=11486, length (1), outArray=11087, deleted, index0=11483, index1" />
+										<Wire Id="11483" Joints="N(11484:11196)|(4,70) h(5) B(1) N(11072:index0)|(145,70) B(1) v(-20) N(11085:index0)|(40,50)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11486" Joints="N(11487:11196)|(4,20) N(11085:inArray)|(40,20)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11489" Joints="N(11490:11196)|(45,111) v(-21) N(11072:c0t0v)|(145,90)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11492" Joints="N(11072:outArray)|(185,50) h(15) v(-30) N(11493:11196)|(226,20)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11087" Joints="N(11085:outArray)|(80,20) h(58) v(30) N(11072:inArray)|(145,50)" xmlns="http://www.ni.com/PlatformFramework" />
+									</CaseStructure.Case>
+									<CaseStructure.Selector Bounds="-4 45 13 10" Docking="Left" Id="11197" Terminals="11194=11495, 11195, 11196" />
+									<CaseStructure.Tunnel Bounds="-4 70 13 10" Docking="Left" Id="11484" Terminals="11194=11714, 11195, 11196=11483" />
+									<CaseStructure.Tunnel Bounds="-4 20 13 10" Docking="Left" Id="11487" Terminals="11194=11162, 11195=11496, 11196=11486" />
+									<CaseStructure.Tunnel Bounds="45 116 10 13" Docking="Bottom" Id="11490" Terminals="11194=11176, 11195, 11196=11489" />
+									<CaseStructure.Tunnel Bounds="231 20 13 10" Docking="Right" Id="11493" Terminals="11194=11177, 11195=11496, 11196=11492" />
+								</CaseStructure>
+								<Wire Id="11495" Joints="N(11010:Value)|(235,130) h(5) v(-45) N(11197:11194)|(276,85)" xmlns="http://www.ni.com/PlatformFramework" />
+								<DataAccessor Bounds="795 130 40 15" DataItem="11497" Id="11500" Label="11501" xmlns="http://www.ni.com/MocCommon">
+									<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+								</DataAccessor>
+								<NodeLabel AttachedTo="11500" Bounds="758 130 32 14" Id="11501" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>guess</p.Text>
+								</NodeLabel>
+								<CaseStructure Bounds="870 80 506 425" Default="11505" Id="11504" Selected="11506" UserSelectorBounds="209 0 88 17">
+									<CaseStructure.Case Bounds="5 5 496 415" Id="11505" Pattern="False" />
+									<CaseStructure.Case Bounds="5 5 496 415" Id="11506" Pattern="True">
+										<MethodCall Bounds="230 45 143 235" DomainName="Library.sli" Id="11509" ResolveFailedHint="" Target="Library\.sli:guess_letter" Template="List" xmlns="http://www.ni.com/MocCommon">
+											<p.MethodDeclaration>
+												<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+													<Parameter Id="L1" Desc="in in" />
+													<Parameter Id="L2" Desc="in_size in" />
+													<Parameter Id="L3" Desc="samples in" />
+													<Parameter Id="L4" Desc="samples_height in" />
+													<Parameter Id="L5" Desc="samples_width in" />
+													<Parameter Id="L6" Desc="error in" />
+													<Parameter Id="R0" Desc="return" />
+													<Parameter Id="R1" Desc="in out" />
+													<Parameter Id="R2" Desc="in_size out" />
+													<Parameter Id="R3" Desc="samples out" />
+													<Parameter Id="R4" Desc="samples_height out" />
+													<Parameter Id="R5" Desc="samples_width out" />
+													<Parameter Id="R6" Desc="error out" />
+												</MethodDeclaration>
+											</p.MethodDeclaration>
+											<Terminal DataType="Double[]" Direction="Input" Hotspot="0 50" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="UInt64" Direction="Input" Hotspot="0 65" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="Double[,]" Direction="Input" Hotspot="0 80" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="UInt64" Direction="Input" Hotspot="0 95" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="UInt64" Direction="Input" Hotspot="0 110" Id="L5" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="Error" Direction="Input" Hotspot="0 200" Id="L6" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="UInt32" Direction="Output" Hotspot="143 35" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="Double[]" Direction="Output" Hotspot="143 125" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="UInt64" Direction="Output" Hotspot="143 140" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="Double[,]" Direction="Output" Hotspot="143 155" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="UInt64" Direction="Output" Hotspot="143 170" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="UInt64" Direction="Output" Hotspot="143 185" Id="R5" xmlns="http://www.ni.com/PlatformFramework" />
+											<Terminal DataType="Error" Direction="Output" Hotspot="143 215" Id="R6" xmlns="http://www.ni.com/PlatformFramework" />
+										</MethodCall>
+										<DataAccessor Bounds="395 75 40 15" DataItem="11510" Id="11514" Label="11515" xmlns="http://www.ni.com/MocCommon">
+											<Terminal DataType="@7f072296d3e2448aa387fef69bf2be5f" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+										</DataAccessor>
+										<NodeLabel AttachedTo="11514" Bounds="440 75 46 14" Id="11515" xmlns="http://www.ni.com/PlatformFramework">
+											<p.Text>guessed</p.Text>
+										</NodeLabel>
+										<Wire Id="11715" Joints="N(11509:R0)|(373,80) N(11514:Value)|(398,80)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11716" Joints="N(11717:11506)|(4,90) h(146) B(1) h(55) v(5) N(11509:L1)|(230,95) B(1) v(10) N(11719:array)|(160,100)" xmlns="http://www.ni.com/PlatformFramework" />
+										<ArraySize Bounds="160 95 40 20" Id="11719" />
+										<Wire Id="11721" Joints="N(11719:size(s\))|(200,110) N(11509:L2)|(230,110)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11722" Joints="N(11723:11506)|(25,4) v(121) B(1) N(11509:L3)|(230,125) B(1) v(40) N(11725:array)|(30,165)" xmlns="http://www.ni.com/PlatformFramework" />
+										<ArraySize Bounds="30 160 40 20" Id="11725" />
+										<ArrayIndex Bounds="135 140 40 30" Id="11727" Terminals="array=11728, c0t0v=11733, c0out=11744" />
+										<Wire Id="11728" Joints="N(11725:size(s\))|(70,175) h(5) B(1) v(-30) N(11727:array)|(135,145) B(1) v(10) N(11729:array)|(135,185)" xmlns="http://www.ni.com/PlatformFramework" />
+										<ArrayIndex Bounds="135 180 40 30" Id="11729" Terminals="array=11728, c0t0v=11736, c0out=11747" />
+										<Literal Bounds="85 160 40 15" DataType="Int32" Facade="Numeric" Id="11731" Label="11732" xmlns="http://www.ni.com/MocCommon">
+											<p.Data>0</p.Data>
+											<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+										</Literal>
+										<NodeLabel AttachedTo="11731" Bounds="85 142 30 15" Id="11732" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+											<p.Text>index</p.Text>
+										</NodeLabel>
+										<Wire Id="11733" Joints="N(11731:Out)|(125,165) N(11727:c0t0v)|(135,165)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Literal Bounds="85 200 40 15" DataType="Int32" Facade="Numeric" Id="11734" Label="11735" xmlns="http://www.ni.com/MocCommon">
+											<p.Data>1</p.Data>
+											<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+										</Literal>
+										<NodeLabel AttachedTo="11734" Bounds="85 182 30 15" Id="11735" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+											<p.Text>index</p.Text>
+										</NodeLabel>
+										<Wire Id="11736" Joints="N(11734:Out)|(125,205) N(11729:c0t0v)|(135,205)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11744" Joints="N(11727:c0out)|(175,165) h(20) v(-25) N(11509:L4)|(230,140)" xmlns="http://www.ni.com/PlatformFramework" />
+										<Wire Id="11747" Joints="N(11729:c0out)|(175,205) h(35) v(-50) N(11509:L5)|(230,155)" xmlns="http://www.ni.com/PlatformFramework" />
+									</CaseStructure.Case>
+									<CaseStructure.Selector Bounds="-4 50 13 10" Docking="Left" Id="11507" Terminals="11504=11508, 11505, 11506" />
+									<CaseStructure.Tunnel Bounds="-4 90 13 10" Docking="Left" Id="11717" Terminals="11504=11176, 11505, 11506=11716" />
+									<CaseStructure.Tunnel Bounds="25 -4 10 13" Docking="Top" Id="11723" Terminals="11504=11177, 11505, 11506=11722" />
+								</CaseStructure>
+								<Wire Id="11508" Joints="N(11500:Value)|(835,135) N(11507:11504)|(866,135)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="11714" Joints="N(10870:Value)|(235,150) h(35) B(1) v(-40) N(11484:11194)|(276,110) B(1) v(15) h(320) v(-50) N(11178:c0t0v)|(595,115)" xmlns="http://www.ni.com/PlatformFramework" />
+								<LoopTunnel Bounds="210 631 10 13" Docking="Bottom" Id="7504" Terminals="o0=10529, i0=9944" />
+								<LoopTunnel Bounds="185 631 10 13" Docking="Bottom" Id="8102" Terminals="o0=10526, i0=8097" />
+								<LoopTunnel Bounds="-4 580 13 10" Docking="Left" Id="10789" Terminals="o0=10532, i0=10788" />
+								<LoopTunnel Bounds="-4 590 13 10" Docking="Left" Id="10792" Terminals="o0=10535, i0=10791" />
+								<LoopTunnel Bounds="-4 600 13 10" Docking="Left" Id="10795" Terminals="o0=10538, i0=10794" />
+								<LoopTunnel Bounds="-4 175 13 10" Docking="Left" Id="10889" Terminals="o0=11503, i0=11164" />
+								<RightShiftRegister Bounds="1391 60 13 10" Docking="Right" Id="11018" Terminals="7412=11046, 7413=11177" />
+								<LeftShiftRegister Bounds="-4 60 13 10" Docking="Left" Id="11019" RightRegister="11018" Terminals="o0=11096, i0=11167" />
+								<LoopTunnel Bounds="-4 385 13 10" Docking="Left" Id="11031" Terminals="o0=10538, i0=11176" />
 							</WhileLoop>
-							<Wire Id="10526" Joints="N(8102:o0)|(1365,594) v(86) B(1) N(8116:c1t0v)|(1452,680) B(1) v(25) N(8100:i0)|(1926,705)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="10529" Joints="N(7504:o0)|(1390,594) v(76) N(8116:c0t0v)|(1452,670)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="10532" Joints="N(6409:R2)|(994,225) h(71) B(1) N(6521:Value)|(1073,225) B(1) v(15) h(150) v(295) N(10789:o0)|(1231,535)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="10535" Joints="N(6409:R4)|(994,270) h(70) B(1) N(8397:Value)|(1072,270) B(1) v(20) h(136) v(255) N(10792:o0)|(1231,545)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Wire Id="10538" Joints="N(6409:R6)|(994,315) h(71) B(1) N(6528:Value)|(1073,315) B(1) v(25) h(120) v(220) N(10795:o0)|(1231,560)" xmlns="http://www.ni.com/PlatformFramework" />
-							<LoopTunnel Bounds="-4 120 13 10" Docking="Left" Id="7388" Terminals="o0=9936, i0=7387" />
-							<LoopTunnel Bounds="-4 50 13 10" Docking="Left" Id="7391" Terminals="o0=6544, i0=7390" />
-							<LoopTunnel Bounds="1931 50 13 10" Docking="Right" Id="7397" Terminals="o0=7398, i0=7396" />
-							<LoopTunnel Bounds="1931 705 13 10" Docking="Right" Id="8100" Terminals="o0=8099, i0=10526" />
+							<Wire Id="10526" Joints="N(8102:o0)|(1390,709) v(86) B(1) N(8116:c1t0v)|(1477,795) B(1) v(25) N(8100:i0)|(2621,820)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="10529" Joints="N(7504:o0)|(1415,709) v(76) N(8116:c0t0v)|(1477,785)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="10532" Joints="N(6409:R2)|(994,340) h(71) B(1) N(6521:Value)|(1073,340) B(1) v(310) N(10789:o0)|(1196,650)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="10535" Joints="N(6409:R4)|(994,385) h(70) B(1) N(8397:Value)|(1072,385) B(1) v(275) N(10792:o0)|(1196,660)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="10538" Joints="N(6409:R6)|(994,430) h(71) B(1) N(6528:Value)|(1073,430) B(1) v(25) B(3) N(11031:o0)|(1196,455) B(3) v(215) N(10795:o0)|(1196,670)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="11046" Joints="N(11018:7412)|(2604,130) h(6) v(-115) N(11044:6601)|(2621,15)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="11096" Joints="N(11045:i0)|(4,15) h(636) v(115) N(11019:o0)|(1196,130)" xmlns="http://www.ni.com/PlatformFramework" />
+							<Wire Id="11503" Joints="N(6595:Value)|(120,365) h(30) v(250) h(140) B(3) h(120) B(4) N(6585:c0t0v)|(540,615) B(4) v(-55) N(6578:c0t0v)|(540,560) B(4) v(55) N(8380:c0t0v)|(539,670) B(3) v(200) h(760) v(-570) N(10889:o0)|(1196,245)" xmlns="http://www.ni.com/PlatformFramework" />
+							<LoopTunnel Bounds="-4 200 13 10" Docking="Left" Id="7388" Terminals="o0=9936, i0=7387" />
+							<LoopTunnel Bounds="-4 85 13 10" Docking="Left" Id="7391" Terminals="o0=6544, i0=7390" />
+							<LoopTunnel Bounds="2340 -4 10 13" Docking="Top" Id="7397" Terminals="o0=7398, i0=7396" />
+							<LoopTunnel Bounds="2626 820 13 10" Docking="Right" Id="8100" Terminals="o0=8099, i0=10526" />
+							<RightShiftRegister Bounds="2626 15 13 10" Docking="Right" Id="11044" Terminals="6600=11049, 6601=11046" />
+							<LeftShiftRegister Bounds="-4 15 13 10" Docking="Left" Id="11045" RightRegister="11044" Terminals="o0=11052, i0=11096" />
 						</WhileLoop>
-						<Wire Id="7398" Joints="N(7397:o0)|(2834,190) N(7399:23)|(2835,190)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="8099" Joints="N(8100:o0)|(2834,845) N(8098:23)|(2835,845)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="7398" Joints="N(7397:o0)|(3235,131) v(-21) N(7399:23)|(3535,110)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="8099" Joints="N(8100:o0)|(3529,960) N(8098:23)|(3535,960)" xmlns="http://www.ni.com/PlatformFramework" />
 						<CaseStructure Bounds="321 120 465 202" Default="8478" Id="8477" Selected="8479" UserSelectorBounds="188 0 88 17">
 							<CaseStructure.Case Bounds="5 5 455 192" Id="8478" Pattern="False">
 								<Wire Id="9117" Joints="N(9115:8478)|(4,10) h(145) v(25) N(8998:8478)|(451,35)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -444,11 +591,11 @@
 										</MethodDeclaration>
 									</p.MethodDeclaration>
 									<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="@180367854ab748388564759874eb7792" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="Double" Direction="Input" Hotspot="0 25" Id="L2" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="Double" Direction="Input" Hotspot="0 35" Id="L3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="@180367854ab748388564759874eb7792" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="Wfm(Double)[]" Direction="Output" Hotspot="50 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 								</Read>
 								<DAQmxNode Bounds="144 30 50 50" DomainName="NI.DAQmx" Id="138" ResolveFailedHint="" Target="DAQmx\ Start\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
@@ -461,9 +608,9 @@
 										</MethodDeclaration>
 									</p.MethodDeclaration>
 									<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="@180367854ab748388564759874eb7792" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 									<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
-									<Terminal DataType="@180367854ab748388564759874eb7792" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+									<Terminal DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 								</DAQmxNode>
 								<Wire Id="8997" Joints="N(48:R0)|(269,35) N(8998:8479)|(451,35)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="9000" Joints="N(48:R2)|(269,55) h(177) v(-5) N(9001:8479)|(451,50)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -482,7 +629,7 @@
 							<CaseStructure.Tunnel Bounds="-4 10 13 10" Docking="Left" Id="9115" Terminals="8477=9114, 8478=9117, 8479=234" />
 							<CaseStructure.Tunnel Bounds="-4 180 13 10" Docking="Left" Id="9938" Terminals="8477=9937, 8478=9939, 8479=9941" />
 						</CaseStructure>
-						<IONameConstant AllowUndefinedValues="True" Bounds="170 130 140 30" DataType="@180367854ab748388564759874eb7792" Facade="IONameConstant" Id="56" Label="47" UdrClass="Task" UdrNamespace="NIDAQ" xmlns="http://www.ni.com/MocCommon">
+						<IONameConstant AllowUndefinedValues="True" Bounds="170 130 140 30" DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Facade="IONameConstant" Id="56" Label="47" UdrClass="Task" UdrNamespace="NIDAQ" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>mic</p.Data>
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 								<TypeDefinitionTarget TargetName="NIDAQ:Task" />
@@ -494,24 +641,24 @@
 							<p.Text>task in</p.Text>
 						</NodeLabel>
 						<Wire Id="9114" Joints="N(56:Out)|(310,135) N(9115:8477)|(317,135)" xmlns="http://www.ni.com/PlatformFramework" />
-						<IsGreater Bounds="235 240 30 30" Id="128" />
-						<Wire Id="9907" Joints="N(130:Out)|(200,260) N(128:y)|(235,260)" xmlns="http://www.ni.com/PlatformFramework" />
-						<DataAccessor Bounds="95 240 40 15" DataItem="123" Id="124" Label="126" xmlns="http://www.ni.com/MocCommon">
+						<IsGreater Bounds="235 320 30 30" Id="128" />
+						<Wire Id="9907" Joints="N(130:Out)|(200,340) N(128:y)|(235,340)" xmlns="http://www.ni.com/PlatformFramework" />
+						<DataAccessor Bounds="95 320 40 15" DataItem="123" Id="124" Label="126" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<NodeLabel AttachedTo="124" Bounds="44 240 46 14" Id="126" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="124" Bounds="44 320 46 14" Id="126" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>duration</p.Text>
 						</NodeLabel>
-						<Literal Bounds="160 255 40 15" DataType="Double" Facade="Numeric" Id="130" Label="131" xmlns="http://www.ni.com/MocCommon">
+						<Literal Bounds="160 335 40 15" DataType="Double" Facade="Numeric" Id="130" Label="131" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>0x0</p.Data>
 							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 						</Literal>
-						<NodeLabel AttachedTo="130" Bounds="125 255 30 15" Id="131" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="130" Bounds="125 335 30 15" Id="131" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>y</p.Text>
 						</NodeLabel>
-						<Wire Id="9920" Joints="N(128:x &gt; y?)|(265,255) h(30) v(-90) N(8480:8477)|(317,165)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="9932" Joints="N(124:Value)|(135,245) h(5) B(1) N(128:x)|(235,245) B(1) v(110) h(390) N(8995:8477)|(530,326)" xmlns="http://www.ni.com/PlatformFramework" />
-						<ClusterLiteral Bounds="210 275 61 67" DataType="Error" Facade="Cluster" Id="9118" Label="9125" p7:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+						<Wire Id="9920" Joints="N(128:x &gt; y?)|(265,335) h(30) v(-170) N(8480:8477)|(317,165)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="9932" Joints="N(124:Value)|(135,325) h(5) B(1) N(128:x)|(235,325) B(1) v(35) h(390) N(8995:8477)|(530,326)" xmlns="http://www.ni.com/PlatformFramework" />
+						<ClusterLiteral Bounds="210 390 61 67" DataType="Error" Facade="Cluster" Id="9118" Label="9125" p7:ControlDefinitionChecksum="ciOmJMo5OE8XEaXh0ywYDA==" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>
 								<Cluster>
 									<Field1>False</Field1>
@@ -546,18 +693,22 @@
 								<p.Text>source</p.Text>
 							</NodeLabel>
 						</ClusterLiteral>
-						<NodeLabel AttachedTo="9118" Bounds="210 257 30 15" Id="9125" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="9118" Bounds="210 372 30 15" Id="9125" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>error in</p.Text>
 						</NodeLabel>
-						<Wire Id="9936" Joints="N(9004:8477)|(790,305) h(95) v(-45) N(7388:o0)|(886,260)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="9937" Joints="N(9118:Out)|(271,280) h(5) v(25) N(9938:8477)|(317,305)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="9936" Joints="N(9004:8477)|(790,305) h(90) v(35) N(7388:o0)|(886,340)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="9937" Joints="N(9118:Out)|(271,395) h(5) v(-90) N(9938:8477)|(317,305)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="11049" Joints="N(11044:6600)|(3529,155) N(11050:23)|(3535,155)" xmlns="http://www.ni.com/PlatformFramework" />
+						<Wire Id="11052" Joints="N(10977:23)|(4,300) h(26) v(-220) h(805) v(75) N(11045:o0)|(886,155)" xmlns="http://www.ni.com/PlatformFramework" />
 					</FlatSequence.Frame>
-					<FlatSequence.Tunnel Bounds="2840 120 13 10" Docking="Right" Id="238" Terminals="22=239, 23=237" />
-					<FlatSequence.Tunnel Bounds="2840 195 13 10" Docking="Right" Id="7399" Terminals="22=7400, 23=7398" />
-					<FlatSequence.Tunnel Bounds="2840 850 13 10" Docking="Right" Id="8098" Terminals="22=10863, 23=8099" />
+					<FlatSequence.Tunnel Bounds="3540 40 13 10" Docking="Right" Id="238" Terminals="22=239, 23=237" />
+					<FlatSequence.Tunnel Bounds="3540 115 13 10" Docking="Right" Id="7399" Terminals="22=7400, 23=7398" />
+					<FlatSequence.Tunnel Bounds="3540 965 13 10" Docking="Right" Id="8098" Terminals="22=10863, 23=8099" />
+					<FlatSequence.Tunnel Bounds="-4 305 13 10" Docking="Left" Id="10977" Terminals="22=11056, 23=11052" />
+					<FlatSequence.Tunnel Bounds="3540 160 13 10" Docking="Right" Id="11050" Terminals="22=11051, 23=11049" />
 				</FlatSequence>
-				<Wire Id="239" Joints="N(238:22)|(2873,140) N(589:322)|(2921,140)" xmlns="http://www.ni.com/PlatformFramework" />
-				<FlatSequence Bounds="2925 125 180 175" Id="322">
+				<Wire Id="239" Joints="N(238:22)|(3573,60) h(42) v(80) N(589:322)|(3621,140)" xmlns="http://www.ni.com/PlatformFramework" />
+				<FlatSequence Bounds="3625 125 180 175" Id="322">
 					<FlatSequence.Frame Bounds="5 10 170 155" Id="323">
 						<DAQmxNode Bounds="20 65 50 50" DomainName="NI.DAQmx" Id="139" ResolveFailedHint="" Target="DAQmx\ Stop\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
 							<p.MethodDeclaration>
@@ -569,9 +720,9 @@
 								</MethodDeclaration>
 							</p.MethodDeclaration>
 							<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@180367854ab748388564759874eb7792" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@180367854ab748388564759874eb7792" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Direction="Output" Hotspot="50 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 						</DAQmxNode>
 						<DAQmxNode Bounds="115 65 50 50" DomainName="NI.DAQmx" Id="140" ResolveFailedHint="" Target="DAQmx\ Clear\ Task\.gvi" xmlns="http://www.ni.com/DAQmx">
 							<p.MethodDeclaration>
@@ -582,7 +733,7 @@
 								</MethodDeclaration>
 							</p.MethodDeclaration>
 							<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@180367854ab748388564759874eb7792" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="50 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 						</DAQmxNode>
 						<Wire Id="240" Joints="N(139:R0)|(70,70) N(140:L0)|(115,70)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -593,9 +744,46 @@
 					<FlatSequence.Tunnel Bounds="-4 10 13 10" Docking="Left" Id="589" Terminals="322=239, 323=588" />
 					<FlatSequence.Tunnel Bounds="-4 85 13 10" Docking="Left" Id="7401" Terminals="322=7400, 323=7402" />
 				</FlatSequence>
-				<Wire Id="7400" Joints="N(7399:22)|(2873,215) N(7401:322)|(2921,215)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="10863" Joints="N(8098:22)|(2873,870) N(17:Input)|(2890,870)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="7400" Joints="N(7399:22)|(3573,135) h(32) v(80) N(7401:322)|(3621,215)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="10863" Joints="N(8098:22)|(3573,985) N(17:Input)|(3590,985)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="11051" Joints="N(11050:22)|(3573,180) h(12) v(145) N(11047:15)|(3836,325)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="11056" Joints="N(11048:i0)|(4,325) N(10977:22)|(16,325)" xmlns="http://www.ni.com/PlatformFramework" />
+				<RightShiftRegister Bounds="3841 325 13 10" Docking="Right" Id="11047" Terminals="14, 15=11051" />
+				<LeftShiftRegister Bounds="-4 325 13 10" Docking="Left" Id="11048" RightRegister="11047" Terminals="o0=11151, i0=11056" />
 			</WhileLoop>
+			<Literal Bounds="-280 240 75 15" DataType="@7f072296d3e2448aa387fef69bf2be5f" Facade="Enum" Id="10942" Label="10943" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>8</p.Data>
+				<EnumBehavior />
+			</Literal>
+			<Add Bounds="-185 240 30 30" Id="10945" Terminals="o=11146, c0t0v=10946, c1t0v=10950" />
+			<Wire Id="10946" Joints="N(10942:Out)|(-205,245) N(10945:c0t0v)|(-185,245)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="-280 255 40 15" DataType="UInt32" Facade="Numeric" Id="10948" Label="10949" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>1</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+			</Literal>
+			<Wire Id="10950" Joints="N(10948:Out)|(-240,260) N(10945:c1t0v)|(-185,260)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="10942" Bounds="-280 222 30 15" Id="10943" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>betuk</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="10948" Bounds="-280 237 30 15" Id="10949" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>input 1</p.Text>
+			</NodeLabel>
+			<Literal Bounds="-165 270 40 15" DataType="Int32" Facade="Numeric" Id="10972" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0</p.Data>
+				<NumericBehavior Interpretation="Numeric" ValueFormatter="LV:G6" />
+			</Literal>
+			<InitializeArray Bounds="-115 230 40 40" Id="11145" Terminals="element=11150, outArray=11151, c0t0v=11146, c1t0v=11147" VerticalChunkCount="2" />
+			<Wire Id="11146" Joints="N(10945:o)|(-155,255) N(11145:c0t0v)|(-115,255)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="11147" Joints="N(10972:Out)|(-125,275) h(5) v(-10) N(11145:c1t0v)|(-115,265)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="-165 220 40 15" DataType="Double" Facade="Numeric" Id="11148" Label="11149" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x0</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+			</Literal>
+			<NodeLabel AttachedTo="11148" Bounds="-165 202 30 15" Id="11149" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>element</p.Text>
+			</NodeLabel>
+			<Wire Id="11150" Joints="N(11148:Out)|(-125,225) h(5) v(10) N(11145:element)|(-115,235)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="11151" Joints="N(11145:outArray)|(-75,235) N(11048:o0)|(206,235)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=46}" DataSourceType="[Type]Wfm(Double)[]" Height="[float]305" Id="28" Label="[UIModel]613" Left="[float]75" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]0" Top="[float]75" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -607,10 +795,10 @@
 				<PlotRenderer Id="34" LineStroke="[SMSolidColorBrush]#ffa08bb0" />
 				<PlotRenderer Id="35" LineStroke="[SMSolidColorBrush]#ff7f7f7f" />
 				<PlotRenderer Id="36" LineStroke="[SMSolidColorBrush]#ff91685c" />
-				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="37" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]40" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 5, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="37" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]40" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 2, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="40" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="38" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.005, 0.005, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="38" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.16, 0.16, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="41" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
 				<Plot HorizontalScale="[UIModel]37" Id="39" Label="[string]Input 0" VerticalScale="[UIModel]38" Visibility="[SMVisibility]Visible" />
@@ -622,39 +810,39 @@
 			<GraphTools Graph="[UIModel]28" Id="45" Left="[float]80" Top="[float]387" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="125" Interval="[double]1" Label="[UIModel]614" Left="[float]735" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]1" Top="[float]230" Value="{DataItemBinding Id=123}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="614" LabelOwner="[UIModel]125" Left="[float]735" Text="[string]duration" Top="[float]210" Width="[float]45" xmlns="http://www.ni.com/PanelCommon" />
-			<RingSelector AllowNonSequentialValues="[bool]True" AllowUndefinedValueEntry="[bool]False" BaseName="[string]Text Ring" Height="[float]24" Id="291" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]292" Left="[float]857" MinHeight="[float]24" TabIndex="[int]2" Top="[float]230" Value="{DataItemBinding Id=290}" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]200" p4:ControlDefinitionChecksum="WPyA1WMWw2yRBd4+Qktw0Q==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<RingSelector AllowNonSequentialValues="[bool]True" AllowUndefinedValueEntry="[bool]False" BaseName="[string]Text Ring" Height="[float]24" Id="291" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]292" Left="[float]857" MinHeight="[float]24" TabIndex="[int]2" Top="[float]230" Value="{DataItemBinding Id=290}" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]200" p4:ControlDefinitionChecksum="WPyA1WMWw2yRBd4+Qktw0Q==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="NI:Analysis:Windows:Window\ Type\.gtype:ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
-				<RingSelectorInfo DisplayValue="[string]Rectangle" Value="[uint]0" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Hanning" Value="[uint]1" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Hamming" Value="[uint]2" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Blackman-Harris" Value="[uint]3" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Exact Blackman" Value="[uint]4" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Blackman" Value="[uint]5" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Flat Top" Value="[uint]6" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]4 Term B-Harris" Value="[uint]7" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]7 Term B-Harris" Value="[uint]8" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Low Sidelobe" Value="[uint]9" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Blackman Nuttall" Value="[uint]11" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Cosine Tapered" IsEnabled="[bool]True" Value="[uint]12" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Triangle" Value="[uint]30" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Bartlett-Hanning" Value="[uint]31" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Bohman" Value="[uint]32" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Parzen" Value="[uint]33" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Welch" Value="[uint]34" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Kaiser" Value="[uint]60" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Dolph-Chebyshev" Value="[uint]61" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Gaussian" Value="[uint]62" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Force" IsEnabled="[bool]True" Value="[uint]64" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
-				<RingSelectorInfo DisplayValue="[string]Exponential" IsEnabled="[bool]True" Value="[uint]65" ValueType="[Type]@d2988ee9f9754dd288837e5cd8c86d1e" />
+				<RingSelectorInfo DisplayValue="[string]Rectangle" Value="[uint]0" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Hanning" Value="[uint]1" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Hamming" Value="[uint]2" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Blackman-Harris" Value="[uint]3" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Exact Blackman" Value="[uint]4" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Blackman" Value="[uint]5" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Flat Top" Value="[uint]6" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]4 Term B-Harris" Value="[uint]7" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]7 Term B-Harris" Value="[uint]8" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Low Sidelobe" Value="[uint]9" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Blackman Nuttall" Value="[uint]11" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Cosine Tapered" IsEnabled="[bool]True" Value="[uint]12" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Triangle" Value="[uint]30" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Bartlett-Hanning" Value="[uint]31" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Bohman" Value="[uint]32" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Parzen" Value="[uint]33" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Welch" Value="[uint]34" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Kaiser" Value="[uint]60" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Dolph-Chebyshev" Value="[uint]61" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Gaussian" Value="[uint]62" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Force" IsEnabled="[bool]True" Value="[uint]64" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
+				<RingSelectorInfo DisplayValue="[string]Exponential" IsEnabled="[bool]True" Value="[uint]65" ValueType="[Type]@5c4cdefc29e24b74ac3345336f99ea24" />
 			</RingSelector>
 			<Label Height="[float]16" Id="292" LabelOwner="[UIModel]291" Left="[float]857" Text="[string]window type" Top="[float]210" Width="[float]68" xmlns="http://www.ni.com/PanelCommon" />
 			<Graph BaseName="[string]Graph" BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=617}" DataSourceType="[Type]@badaece408c64409bcfcbe29aa675226" Height="[float]296" Id="619" Label="[UIModel]637" Left="[float]75" MetadataAlwaysOverridesPlotNames="[bool]True" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" TabIndex="[int]3" Top="[float]412" Width="[float]600" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<Axis Adjuster="[RangeAdjuster]None" Id="620" IsInverted="[bool]False" Label="[string]Frequency" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]631" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 1000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="631" LabelPresenter="[string]LVRelativeSeconds:0.######" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="621" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]632" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 0.001, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="621" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]632" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 0.018000000000000002, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="632" LabelPresenter="[string]LVRelativeSeconds:G6&gt;&gt;0.000E+0" />
 				</Axis>
 				<Plot HorizontalScale="[UIModel]620" Id="622" Label="[string]Plot" VerticalScale="[UIModel]621" Visibility="[SMVisibility]Visible">
@@ -668,7 +856,6 @@
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="628" LineStroke="[SMSolidColorBrush]#ffa08bb0" PointShape="[PointShape]Rectangle" />
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="629" LineStroke="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" />
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="630" LineStroke="[SMSolidColorBrush]#ff3c0726" PointShape="[PointShape]Cross" />
-				<Cursor AllowablePlots="[UIModelList]622" CrosshairBrush="[SMSolidColorBrush]#ff000000" Fill="[bool]False" Foreground="[SMSolidColorBrush]#ff000000" HorizontalCrosshairLength="[double]Infinity" HorizontalScale="[UIModel]620" Id="5659" Label="[string]Cursor 1" LabelVisibility="[SMVisibility]Collapsed" SnapToData="[bool]True" SnapToWatchedPlotsOnly="[bool]True" TargetBrush="[SMSolidColorBrush]#00ffffff" TargetShape="[PointShape]Ellipse" Value="[string]System.Double, mscorlib]|[0]|[System.Double, mscorlib]|[0,000192103318919709" ValueVisibility="[SMVisibility]Visible" VerticalCrosshairLength="[double]Infinity" Visibility="[SMVisibility]Visible" />
 			</Graph>
 			<PlotLegend Graph="[UIModel]619" Height="[float]28" Id="633" Left="[float]682" Top="[float]412" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]619" Height="[float]102" Id="634" Left="[float]80" MinHeight="[float]80" Top="[float]737" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -677,16 +864,16 @@
 			<Label Height="[float]16" Id="637" LabelOwner="[UIModel]619" Left="[float]75" Text="[string]spectrum" Top="[float]392" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
 			<ArrayViewer ArrayElement="[UIModel]6519" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]288" Id="6518" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]6531" Left="[float]735" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]4" Top="[float]416" Value="{DataItemBinding Id=6517}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104" xmlns="http://www.ni.com/PanelCommon">
 				<p.DefaultElementValue>0x0</p.DefaultElementValue>
-				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6519" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]24" Name="[string]Child" Top="[float]118" Value="[double]550.00000000000159" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6519" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]24" Name="[string]Child" Top="[float]202" Value="[double]754.50000000000216" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			</ArrayViewer>
-			<Label Height="[float]16" Id="6531" LabelOwner="[UIModel]6518" Left="[float]735" Text="[string]out_freq out" Top="[float]396" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="6531" LabelOwner="[UIModel]6518" Left="[float]735" Text="[string]frequency peaks" Top="[float]396" Width="[float]87" xmlns="http://www.ni.com/PanelCommon" />
 			<ArrayViewer ArrayElement="[UIModel]6526" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" FirstIndex="[ArrayElementIndex]0" Height="[float]288" Id="6525" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]6532" Left="[float]979" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]5" Top="[float]416" Value="{DataItemBinding Id=6524}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104" xmlns="http://www.ni.com/PanelCommon">
 				<p.DefaultElementValue>0x0</p.DefaultElementValue>
-				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6526" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]24" Name="[string]Child" Top="[float]6" Value="[double]2.4167788049174406E-05" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6526" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]24" Name="[string]Child" Top="[float]118" Value="[double]0.00095782112039402448" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			</ArrayViewer>
-			<Label Height="[float]16" Id="6532" LabelOwner="[UIModel]6525" Left="[float]979" Text="[string]out_amp out" Top="[float]396" Width="[float]68" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="6532" LabelOwner="[UIModel]6525" Left="[float]979" Text="[string]amplitudes" Top="[float]396" Width="[float]59" xmlns="http://www.ni.com/PanelCommon" />
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6596" Interval="[int]1" Label="[UIModel]6599" Left="[float]735" Maximum="[int]2147483647" MinHeight="[float]24" Minimum="[int]-2147483648" TabIndex="[int]6" Top="[float]290" Value="{DataItemBinding Id=6594}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="6599" LabelOwner="[UIModel]6596" Left="[float]735" Text="[string]size" Top="[float]270" Width="[float]20" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="6599" LabelOwner="[UIModel]6596" Left="[float]735" Text="[string]peaks count" Top="[float]270" Width="[float]64" xmlns="http://www.ni.com/PanelCommon" />
 			<Button BaseName="[string]Stop" Content="[string]Collect data" Foreground="[SMColor]#ffff0000" Height="[float]50" Id="7404" IncludeInCapture="[bool]False" IsMomentary="[bool]False" IsReadOnly="[bool]False" Label="[UIModel]7409" Left="[float]735" MinHeight="[float]32.8333321" MinWidth="[float]112.073334" Shape="[ButtonShape]Square" TabIndex="[int]7" Top="[float]75" Value="{DataItemBinding Id=7403}" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Segoe UI" FontSize="14" FontStyle="Bold" Id="10838" xmlns="http://www.ni.com/PlatformFramework" />
 			</Button>
@@ -699,23 +886,56 @@
 				<FontSetting FontFamily="Segoe UI" FontSize="14" FontStyle="Bold" Id="10836" xmlns="http://www.ni.com/PlatformFramework" />
 			</Button>
 			<Label Id="8122" LabelOwner="[UIModel]7517" Left="[float]873" Text="[string]stop" Top="[float]55" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
-			<PathSelector BaseName="[string]Path" BrowseDialogTitle="[string]Open File" BrowseOption="[BrowseOption]ExistingFiles" Filter="[null]" FilterLabel="[null]" Height="[float]24" Id="8371" InitialDirectory="[null]" InteractionMode="[PathSelectorInteractionModes]BrowseDialog, TextInput, AllowNullPathSelection" Label="[UIModel]8438" Left="[float]857" MinHeight="[float]24" Path="{DataItemBinding Id=8370}" TabIndex="[int]10" Top="[float]290" Width="[float]194" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="8438" LabelOwner="[UIModel]8371" Left="[float]857" Text="[string]file path" Top="[float]270" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
+			<PathSelector BaseName="[string]Path" BrowseDialogTitle="[string]Open File" BrowseOption="[BrowseOption]ExistingFiles" Filter="[null]" FilterLabel="[null]" Height="[float]24" Id="8371" InitialDirectory="[null]" InteractionMode="[PathSelectorInteractionModes]BrowseDialog, TextInput, AllowNullPathSelection" Label="[UIModel]8438" Left="[float]1011" MinHeight="[float]24" Path="{DataItemBinding Id=8370}" TabIndex="[int]10" Top="[float]165" Width="[float]194" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="8438" LabelOwner="[UIModel]8371" Left="[float]1011" Text="[string]file path" Top="[float]145" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
 			<ArrayViewer ArrayElement="[UIModel]8395" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]288" Id="8394" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]8439" Left="[float]857" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]11" Top="[float]416" Value="{DataItemBinding Id=8393}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104" xmlns="http://www.ni.com/PanelCommon">
 				<p.DefaultElementValue>0x0</p.DefaultElementValue>
-				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8395" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]6" MinHeight="[float]24" Name="[string]Child" Top="[float]258" Value="[double]3.0000000000000089" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8395" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]6" MinHeight="[float]24" Name="[string]Child" Top="[float]230" Value="[double]2.0000000000000058" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			</ArrayViewer>
-			<Label Height="[float]16" Id="8439" LabelOwner="[UIModel]8394" Left="[float]857" Text="[string]out_hvw out" Top="[float]396" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8421" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]8440" Left="[float]735" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]12" Top="[float]351" Value="{DataItemBinding Id=8420}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="8440" LabelOwner="[UIModel]8421" Left="[float]735" Text="[string]threshold" Top="[float]331" Width="[float]51" xmlns="http://www.ni.com/PanelCommon" />
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8427" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]8441" Left="[float]857" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]13" Top="[float]351" Value="{DataItemBinding Id=8426}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="8441" LabelOwner="[UIModel]8427" Left="[float]857" Text="[string]min peak width" Top="[float]331" Width="[float]82" xmlns="http://www.ni.com/PanelCommon" />
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8433" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]8442" Left="[float]979" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]14" Top="[float]351" Value="{DataItemBinding Id=8432}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="8442" LabelOwner="[UIModel]8433" Left="[float]979" Text="[string]max peak width" Top="[float]331" Width="[float]84" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="8439" LabelOwner="[UIModel]8394" Left="[float]857" Text="[string]half value widths" Top="[float]396" Width="[float]89" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8421" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]8440" Left="[float]857" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]12" Top="[float]290" Value="{DataItemBinding Id=8420}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="8440" LabelOwner="[UIModel]8421" Left="[float]857" Text="[string]threshold" Top="[float]270" Width="[float]51" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8427" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]8441" Left="[float]735" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]13" Top="[float]351" Value="{DataItemBinding Id=8426}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="8441" LabelOwner="[UIModel]8427" Left="[float]735" Text="[string]min peak width" Top="[float]331" Width="[float]82" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="8433" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[double]1" Label="[UIModel]8442" Left="[float]857" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]14" Top="[float]351" Value="{DataItemBinding Id=8432}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="8442" LabelOwner="[UIModel]8433" Left="[float]857" Text="[string]max peak width" Top="[float]331" Width="[float]84" xmlns="http://www.ni.com/PanelCommon" />
 			<Button BaseName="[string]Stop" Content="[string]Save to file" Foreground="[SMColor]#ffff0000" Height="[float]50" Id="10841" IncludeInCapture="[bool]False" IsMomentary="[bool]False" IsReadOnly="[bool]False" Label="[UIModel]10846" Left="[float]873" MinHeight="[float]32.8333321" MinWidth="[float]105.326668" Shape="[ButtonShape]Square" TabIndex="[int]15" Top="[float]152" Value="{DataItemBinding Id=10840}" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Segoe UI" FontSize="14" FontStyle="Bold" Id="10865" xmlns="http://www.ni.com/PlatformFramework" />
 			</Button>
 			<Label Id="10846" LabelOwner="[UIModel]10841" Left="[float]873" Text="[string]save to file" Top="[float]132" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="10868" InteractionMode="[SelectorInteractionModes]ArrowKeys, Keyboard, MouseClick, ScrollWheel, ButtonClicks" IsTypeAheadEnabled="[bool]True" Label="[UIModel]10872" Left="[float]1101" MinHeight="[float]24" TabIndex="[int]16" Top="[float]351" Value="{DataItemBinding Id=10867}" ValueType="[Type]UInt32" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<EnumSelectorInfo DisplayValue="[string]A" Value="[uint]0" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]Á" Value="[uint]1" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]E" Value="[uint]2" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]É" Value="[uint]3" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]I" Value="[uint]4" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]O" Value="[uint]5" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]Ö" Value="[uint]6" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]U" Value="[uint]7" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]Ü" Value="[uint]8" ValueType="[Type]UInt32" />
+			</EnumSelector>
+			<Label Height="[float]16" Id="10872" LabelOwner="[UIModel]10868" Left="[float]1101" Text="[string]letter" Top="[float]331" Width="[float]28" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]Stop" Content="[string]Save" Foreground="[SMColor]#ffff0000" Height="[float]24" Id="11008" IncludeInCapture="[bool]False" IsMomentary="[bool]False" IsReadOnly="[bool]False" Label="[UIModel]11012" Left="[float]1101" MinHeight="[float]23.96" MinWidth="[float]32.503334" Shape="[ButtonShape]Square" TabIndex="[int]17" Top="[float]290" Value="{DataItemBinding Id=11007}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="11012" LabelOwner="[UIModel]11008" Left="[float]1101" Text="[string]save to clipboard" Top="[float]270" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]11189" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]288" Id="11188" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]11193" Left="[float]1101" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]18" Top="[float]416" Value="{DataItemBinding Id=11187}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0x0</p.DefaultElementValue>
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="11189" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]6" MinHeight="[float]24" Name="[string]Child" Top="[float]230" Value="[double]0" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Height="[float]16" Id="11193" LabelOwner="[UIModel]11188" Left="[float]1101" Text="[string]letter amplitudes" Top="[float]396" Width="[float]90" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]Stop" Content="[string]Guess" Foreground="[SMColor]#ffff0000" Height="[float]24" Id="11498" IncludeInCapture="[bool]False" IsMomentary="[bool]False" IsReadOnly="[bool]False" Label="[UIModel]11749" Left="[float]979" MinHeight="[float]23.96" MinWidth="[float]39.4866676" Shape="[ButtonShape]Square" TabIndex="[int]19" Top="[float]290" Value="{DataItemBinding Id=11497}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Id="11749" LabelOwner="[UIModel]11498" Left="[float]979" Text="[string]guess" Top="[float]270" Visible="[bool]False" xmlns="http://www.ni.com/PanelCommon" />
+			<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="11511" InteractionMode="[SelectorInteractionModes]ReadOnly" IsTypeAheadEnabled="[bool]True" Label="[UIModel]11512" Left="[float]979" MinHeight="[float]24" TabIndex="[int]20" Top="[float]351" Value="{DataItemBinding Id=11510}" ValueType="[Type]UInt32" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<EnumSelectorInfo DisplayValue="[string]A" Value="[uint]0" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]Á" Value="[uint]1" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]E" Value="[uint]2" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]É" Value="[uint]3" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]I" Value="[uint]4" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]O" Value="[uint]5" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]Ö" Value="[uint]6" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]U" Value="[uint]7" ValueType="[Type]UInt32" />
+				<EnumSelectorInfo DisplayValue="[string]Ü" Value="[uint]8" ValueType="[Type]UInt32" />
+			</EnumSelector>
+			<Label Height="[float]16" Id="11512" LabelOwner="[UIModel]11511" Left="[float]979" Text="[string]guessed" Top="[float]331" Width="[float]44" xmlns="http://www.ni.com/PanelCommon" />
 		</CPFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Wfm(Double)[]" Id="46" Name="data" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
@@ -723,7 +943,7 @@
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="123" Name="duration" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
 		</DataItem>
-		<DataItem DataType="@d2988ee9f9754dd288837e5cd8c86d1e" Id="290" Name="window type" xmlns="http://www.ni.com/MocCommon">
+		<DataItem DataType="@5c4cdefc29e24b74ac3345336f99ea24" Id="290" Name="window type" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>1</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="NI:Analysis:Windows:Window\ Type\.gtype" />
@@ -734,13 +954,13 @@
 				<Array Lengths="0" />
 			</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="6517" Name="out_freq out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="6517" Name="frequency peaks" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="6524" Name="out_amp out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="6524" Name="amplitudes" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
-		<DataItem DataType="Int32" Id="6594" Name="size" xmlns="http://www.ni.com/MocCommon">
+		<DataItem DataType="Int32" Id="6594" Name="peaks count" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>10</p.DefaultValue>
 		</DataItem>
 		<DataItem DataType="Boolean" Id="7403" IsLatched="True" Name="restart" xmlns="http://www.ni.com/MocCommon">
@@ -753,11 +973,9 @@
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Path" Id="8370" Name="file path" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>
-				<Path a="1" />
-			</p.DefaultValue>
+			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="8393" Name="out_hvw out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="8393" Name="half value widths" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="8420" Name="threshold" xmlns="http://www.ni.com/MocCommon">
@@ -772,23 +990,38 @@
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="10840" IsLatched="True" Name="save to file" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="@7f072296d3e2448aa387fef69bf2be5f" Id="10867" Name="letter" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="11007" IsLatched="True" Name="save to clipboard" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double[]" Id="11187" Name="letter amplitudes" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="11497" IsLatched="True" Name="guess" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="@7f072296d3e2448aa387fef69bf2be5f" Id="11510" Name="guessed" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="48423a57a43f4fffaf8c2f41a2d48b20">
+		<p.TypeReference TypeId="64ffe66817aa4f569064ce58c836c9de">
 			<Attributed AttributedType="@50e87f6a1146424b9765f3124583a750">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:Analysis:Measurement" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d2988ee9f9754dd288837e5cd8c86d1e">
+		<p.TypeReference TypeId="5c4cdefc29e24b74ac3345336f99ea24">
 			<Attributed AttributedType="@dcbbf20686c341c0b7d457485320ae53">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:Analysis:Windows" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c949a42302734554a00518c1be37191a">
+		<p.TypeReference TypeId="4b905316fedf45f8bb0883474e74b5d3">
 			<Attributed AttributedType="@2ff016a87f2c4fcb870711abafbeae38">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:Analysis:Measurement" />
@@ -810,8 +1043,24 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="180367854ab748388564759874eb7792">
-			<Attributed AttributedType="@e8f4060f3e4d4368a3d818be90357ffd">
+		<p.TypeReference TypeId="7f072296d3e2448aa387fef69bf2be5f">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="A" />
+					<EnumerationMember Value="1" Name="Á" />
+					<EnumerationMember Value="2" Name="E" />
+					<EnumerationMember Value="3" Name="É" />
+					<EnumerationMember Value="4" Name="I" />
+					<EnumerationMember Value="5" Name="O" />
+					<EnumerationMember Value="6" Name="Ö" />
+					<EnumerationMember Value="7" Name="U" />
+					<EnumerationMember Value="8" Name="Ü" />
+				</Members>
+				<DataType>UInt32</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="318b19b1fe0a4dabb8f33dda88a8ecf1">
+			<Attributed AttributedType="@6229d311698a4f2b9d1ec89b3b095400">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NIDAQ" />
 				</AttributeValues>
@@ -835,8 +1084,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e8f4060f3e4d4368a3d818be90357ffd">
-			<Typedef TypedefName="Task" UnderlyingType="@1ac9c4ed928b4062af7c84e0ae84538b" />
+		<p.TypeReference TypeId="6229d311698a4f2b9d1ec89b3b095400">
+			<Typedef TypedefName="Task" UnderlyingType="@766acac318e4434f85622fafb8b064c7" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="f9760800bd23446c86e693bb0578eee9">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -856,7 +1105,7 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="1ac9c4ed928b4062af7c84e0ae84538b">
+		<p.TypeReference TypeId="766acac318e4434f85622fafb8b064c7">
 			<Attributed AttributedType="@6d8119bf05204c0bbfbf6c101ec2ddc6">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]TagRefnum" />
@@ -888,7 +1137,7 @@
 		<p.TypeReference TypeId="6d8119bf05204c0bbfbf6c101ec2ddc6">
 			<Composite Id="1" Name="Task" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="Read" Name="Name_1276" DataType="@180367854ab748388564759874eb7792" />
+					<Field FieldAccessPolicy="Read" Name="Name_1276" DataType="@318b19b1fe0a4dabb8f33dda88a8ecf1" />
 					<Field FieldAccessPolicy="Read" Name="Channels_1273" DataType="@e166b7c5c26c444d831b8f0dc3bee489" />
 					<Field FieldAccessPolicy="Read" Name="NumChans_2181" DataType="UInt32" />
 					<Field FieldAccessPolicy="Read" Name="Devices_230E" DataType="@467d077e91d7402c82f94ebec3fedb16" />
@@ -896,7 +1145,7 @@
 					<Field FieldAccessPolicy="Read" Name="Done_1274" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Max_17DD" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Min_17DE" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_CustomScaleName_17E0" DataType="@1f6f4331596f4d79af1ea74176ce35c4" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_CustomScaleName_17E0" DataType="@3d03928ab7bb47a695be501c2b3ffa6a" />
 					<Field FieldAccessPolicy="Read" Name="AI_MeasType_695" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Voltage_Units_1094" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Voltage_dBRef_29B0" DataType="Double" />
@@ -906,7 +1155,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmcpl_ScaleType_29D0" DataType="Int32" />
 					<Field FieldAccessPolicy="Read" Name="AI_Thrmcpl_CJCSrc_1035" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_Thrmcpl_CJCVal_1036" DataType="Double" />
-					<Field FieldAccessPolicy="Read" Name="AI_Thrmcpl_CJCChan_1034" DataType="@e74f888f90e84458a341d1313443a085" />
+					<Field FieldAccessPolicy="Read" Name="AI_Thrmcpl_CJCChan_1034" DataType="@10881da2b6bb4bfba9568d7837f44336" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_Type_1032" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_R0_1030" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_RTD_A_1010" DataType="Double" />
@@ -1077,7 +1326,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AI_OpenChanDetectEnable_30FF" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Max_1186" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Min_1187" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_CustomScaleName_1188" DataType="@1f6f4331596f4d79af1ea74176ce35c4" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_CustomScaleName_1188" DataType="@3d03928ab7bb47a695be501c2b3ffa6a" />
 					<Field FieldAccessPolicy="Read" Name="AO_OutputType_1108" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Voltage_Units_1184" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AO_Voltage_CurrentLimit_2A1D" DataType="Double" />
@@ -1123,7 +1372,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_Enable_21D6" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_MinPulseWidth_21D7" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_EnableBusMode_2EFE" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_TimebaseSrc_2ED4" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_TimebaseSrc_2ED4" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigFltr_TimebaseRate_2ED5" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_DigSync_Enable_2ED6" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DI_Tristate_1890" DataType="Boolean" />
@@ -1154,15 +1403,15 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DO_GenerateOn_2969" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Max_189C" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Min_189D" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CustomScaleName_189E" DataType="@1f6f4331596f4d79af1ea74176ce35c4" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CustomScaleName_189E" DataType="@3d03928ab7bb47a695be501c2b3ffa6a" />
 					<Field FieldAccessPolicy="Read" Name="CI_MeasType_18A0" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_Units_18A1" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_Term_18A2" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_Term_18A2" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_TermCfg_3097" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_LogicLvlBehavior_3098" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_Enable_21E7" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_MinPulseWidth_21E8" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_TimebaseSrc_21E9" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_TimebaseSrc_21E9" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigFltr_TimebaseRate_21EA" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_DigSync_Enable_21EB" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_StartingEdge_799" DataType="Int32" />
@@ -1171,12 +1420,12 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_MeasTime_145" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Freq_Div_147" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_Units_18A3" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_Term_18A4" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_Term_18A4" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_TermCfg_3099" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_LogicLvlBehavior_309A" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_Enable_21EC" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_MinPulseWidth_21ED" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_TimebaseSrc_21EE" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_TimebaseSrc_21EE" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigFltr_TimebaseRate_21EF" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_DigSync_Enable_21F0" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_StartingEdge_852" DataType="Int32" />
@@ -1184,51 +1433,51 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_EnableAveraging_2ED1" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_MeasTime_192D" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Period_Div_192E" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Term_18C7" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Term_18C7" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_TermCfg_309B" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_LogicLvlBehavior_309C" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_Enable_21F6" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_MinPulseWidth_21F7" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_TimebaseSrc_21F8" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_TimebaseSrc_21F8" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigFltr_TimebaseRate_21F9" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DigSync_Enable_21FA" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Dir_696" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DirTerm_21E1" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_DirTerm_21E1" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_TermCfg_309D" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_LogicLvlBehavior_309E" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_Enable_21F1" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_MinPulseWidth_21F2" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_TimebaseSrc_21F3" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_TimebaseSrc_21F3" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigFltr_TimebaseRate_21F4" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountDir_DigSync_Enable_21F5" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_InitialCnt_698" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_ActiveEdge_697" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_Enable_2FAF" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_ResetCnt_2FB0" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_Term_2FB1" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_Term_2FB1" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_TermCfg_309F" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_LogicLvlBehavior_30A0" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_Enable_2FB3" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_MinPulseWidth_2FB4" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_TimebaseSrc_2FB5" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_TimebaseSrc_2FB5" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigFltr_TimebaseRate_2FB6" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_DigSync_Enable_2FB7" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_CountReset_ActiveEdge_2FB2" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_Enable_30ED" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_Term_30EE" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_Term_30EE" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_TermCfg_30EF" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_LogicLvlBehavior_30F0" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_DigFltr_Enable_30F1" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_DigFltr_MinPulseWidth_30F2" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_DigFltr_TimebaseSrc_30F3" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_DigFltr_TimebaseSrc_30F3" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate__DigFltr_TimebaseRate_30F4" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CountEdges_Gate_When_30F5" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_Term_308D" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_Term_308D" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_TermCfg_30A1" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_LogicLvlBehavior_30A2" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_Enable_308E" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_MinPulseWidth_308F" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_TimebaseSrc_3090" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_TimebaseSrc_3090" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_DigFltr_TimebaseRate_3091" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_DutyCycle_StartingEdge_3092" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_AngEncoder_Units_18A6" DataType="Int32" />
@@ -1238,132 +1487,132 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_LinEncoder_DistPerPulse_911" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_LinEncoder_InitialPos_915" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_DecodingType_21E6" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInputTerm_219D" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInputTerm_219D" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_TermCfg_30A3" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_LogicLvlBehavior_30A4" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_Enable_21FB" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_MinPulseWidth_21FC" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_TimebaseSrc_21FD" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_TimebaseSrc_21FD" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigFltr_TimebaseRate_21FE" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_AInput_DigSync_Enable_21FF" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInputTerm_219E" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInputTerm_219E" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_TermCfg_30A5" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_LogicLvlBehavior_30A6" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_Enable_2200" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_MinPulseWidth_2201" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_TimebaseSrc_2202" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_TimebaseSrc_2202" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigFltr_TimebaseRate_2203" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_BInput_DigSync_Enable_2204" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInputTerm_219F" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInputTerm_219F" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_TermCfg_30A7" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_LogicLvlBehavior_30A8" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_Enable_2205" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_MinPulseWidth_2206" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_TimebaseSrc_2207" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_TimebaseSrc_2207" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigFltr_TimebaseRate_2208" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZInput_DigSync_Enable_2209" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZIndexEnable_890" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZIndexVal_888" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Encoder_ZIndexPhase_889" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_Units_823" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_Term_18AA" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_Term_18AA" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_TermCfg_30A9" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_LogicLvlBehavior_30AA" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_Enable_220A" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_MinPulseWidth_220B" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_TimebaseSrc_220C" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_TimebaseSrc_220C" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigFltr_TimebaseRate_220D" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_DigSync_Enable_220E" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_PulseWidth_StartingEdge_825" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Timestamp_Units_22B3" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Timestamp_InitialSeconds_22B4" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_GPS_SyncMethod_1092" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_GPS_SyncSrc_1093" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_GPS_SyncSrc_1093" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AngEncoder_Units_30D8" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AngEncoder_PulsesPerRev_30D9" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_LinEncoder_Units_30DA" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_LinEncoder_DistPerPulse_30DB" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_Encoder_DecodingType_30DC" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_Term_30DD" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_Term_30DD" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_TermCfg_30DE" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_LogicLvlBehavior_30DF" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_Enable_30E0" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_MinPulseWidth_30E1" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_TimebaseSrc_30E2" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_TimebaseSrc_30E2" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_AInput_DigFltr_TimebaseRate_30E3" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_Term_30E4" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_Term_30E4" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_TermCfg_30E5" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_LogicLvlBehavior_30E6" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_Enable_30E7" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_MinPulseWidth_30E8" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_TimebaseSrc_30E9" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_TimebaseSrc_30E9" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_BInput_DigFltr_TimebaseRate_30EA" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_MeasTime_30EB" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Velocity_Div_30EC" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Units_18AC" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_Term_18AD" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_Term_18AD" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_TermCfg_30AB" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_LogicLvlBehavior_30AC" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_Enable_220F" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_MinPulseWidth_2210" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_TimebaseSrc_2211" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_TimebaseSrc_2211" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigFltr_TimebaseRate_2212" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_DigSync_Enable_2213" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_First_Edge_833" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_Term_18AE" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_Term_18AE" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_TermCfg_30AD" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_LogicLvlBehavior_30AE" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_Enable_2214" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_MinPulseWidth_2215" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_TimebaseSrc_2216" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_TimebaseSrc_2216" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigFltr_TimebaseRate_2217" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_DigSync_Enable_2218" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_TwoEdgeSep_Second_Edge_834" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_Units_18AF" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_Term_18B0" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_Term_18B0" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_TermCfg_30AF" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_LogicLvlBehavior_30B0" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_Enable_2219" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_MinPulseWidth_221A" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_TimebaseSrc_221B" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_TimebaseSrc_221B" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigFltr_TimebaseRate_221C" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_DigSync_Enable_221D" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_SemiPeriod_StartingEdge_22FE" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_Units_2F0B" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_Term_2F04" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_Term_2F04" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_TermCfg_30B1" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_LogicLvlBehavior_30B2" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_Enable_2F06" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_MinPulseWidth_2F07" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_TimebaseSrc_2F08" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_TimebaseSrc_2F08" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigFltr_TimebaseRate_2F09" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_DigSync_Enable_2F0A" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Freq_StartingEdge_2F05" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_Units_2F13" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_Term_2F0C" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_Term_2F0C" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_TermCfg_30B3" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_LogicLvlBehavior_30B4" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_Enable_2F0E" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_MinPulseWidth_2F0F" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_TimebaseSrc_2F10" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_TimebaseSrc_2F10" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigFltr_TimebaseRate_2F11" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_DigSync_Enable_2F12" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Time_StartingEdge_2F0D" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_Term_2F14" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_Term_2F14" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_TermCfg_30B5" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_LogicLvlBehavior_30B6" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_Enable_2F16" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_MinPulseWidth_2F17" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_TimebaseSrc_2F18" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_TimebaseSrc_2F18" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigFltr_TimebaseRate_2F19" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_DigSync_Enable_2F1A" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_Pulse_Ticks_StartingEdge_2F15" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseSrc_143" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseSrc_143" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseRate_18B2" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebaseActiveEdge_142" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_Enable_2271" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_MinPulseWidth_2272" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_TimebaseSrc_2273" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_TimebaseSrc_2273" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigFltr_TimebaseRate_2274" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_CtrTimebase_DigSync_Enable_2275" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_ThreshVoltage_30B7" DataType="Double" />
@@ -1384,7 +1633,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CI_MaxMeasPeriod_3095" DataType="Double" />
 					<Field FieldAccessPolicy="Read" Name="CO_OutputType_18B5" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_IdleState_1170" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Term_18E1" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Term_18E1" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Time_Units_18D6" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_HighTime_18BA" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_LowTime_18BB" DataType="Double" />
@@ -1396,12 +1645,12 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_HighTicks_1169" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_LowTicks_1171" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Pulse_Ticks_InitialDelay_298" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseSrc_339" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseSrc_339" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseRate_18C2" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebaseActiveEdge_341" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_Enable_2276" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_MinPulseWidth_2277" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_TimebaseSrc_2278" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_TimebaseSrc_2278" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigFltr_TimebaseRate_2279" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_CtrTimebase_DigSync_Enable_227A" DataType="Boolean" />
 					<Field FieldAccessPolicy="Read" Name="CO_Count_293" DataType="UInt32" />
@@ -1420,7 +1669,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CO_Prescaler_226D" DataType="UInt32" />
 					<Field FieldAccessPolicy="Read" Name="CO_RdyForNewVal_22FF" DataType="Boolean" />
 					<Field FieldAccessPolicy="Read" Name="ChanType_187F" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWrite" Name="PhysicalChanName_18F5" DataType="@28f3b22361eb4d159e2aa351a14c1639" />
+					<Field FieldAccessPolicy="ReadWrite" Name="PhysicalChanName_18F5" DataType="@f77955f9cb884560adbb862b8b867bb4" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Descr_1926" DataType="String" />
 					<Field FieldAccessPolicy="Read" Name="IsGlobal_2304" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampQuant_SampMode_1300" DataType="Int32" />
@@ -1428,34 +1677,34 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampTimingType_1347" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Rate_1344" DataType="Double" />
 					<Field FieldAccessPolicy="Read" Name="SampClk_MaxRate_22C8" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Src_1852" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Src_1852" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_ActiveEdge_1301" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_OverrunBehavior_2EFC" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_UnderflowBehavior_2961" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_TimebaseDiv_18EB" DataType="UInt32" />
-					<Field FieldAccessPolicy="Read" Name="SampClk_Term_2F1B" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="Read" Name="SampClk_Term_2F1B" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_Rate_1303" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_Src_1308" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_Src_1308" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_ActiveEdge_18EC" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Timebase_MasterTimebaseDiv_1305" DataType="UInt32" />
-					<Field FieldAccessPolicy="Read" Name="SampClk_Timebase_Term_2F1C" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="Read" Name="SampClk_Timebase_Term_2F1C" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_Enable_221E" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_MinPulseWidth_221F" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_TimebaseSrc_2220" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_TimebaseSrc_2220" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigFltr_TimebaseRate_2221" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DigSync_Enable_2222" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_WriteWfm_UseInitialWfmDT_30FC" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_DelayAfterXfer_22C2" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_StartCond_22C3" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_SampleInputDataWhen_22C4" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_RisingEdgePhysicalChans_2195" DataType="@28f3b22361eb4d159e2aa351a14c1639" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_FallingEdgePhysicalChans_2196" DataType="@28f3b22361eb4d159e2aa351a14c1639" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_RisingEdgePhysicalChans_2195" DataType="@f77955f9cb884560adbb862b8b867bb4" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_FallingEdgePhysicalChans_2196" DataType="@f77955f9cb884560adbb862b8b867bb4" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetect_DI_Tristate_2EFA" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SimultaneousAOEnable_21A0" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Implicit_UnderflowBehavior_2EFD" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_Rate_1848" DataType="Double" />
 					<Field FieldAccessPolicy="Read" Name="AIConv_MaxRate_22C9" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_Src_1502" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_Src_1502" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_ActiveEdge_1853" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_TimebaseDiv_1335" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_Timebase_Src_1339" DataType="Int32" />
@@ -1463,31 +1712,31 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DelayFromSampClk_Delay_1317" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_Enable_2EDC" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_MinPulseWidth_2EDD" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_TimebaseSrc_2EDE" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_TimebaseSrc_2EDE" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigFltr_TimebaseRate_2EDF" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConv_DigSync_Enable_2EE0" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="MasterTimebase_Rate_1495" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="MasterTimebase_Src_1343" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="MasterTimebase_Src_1343" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="RefClk_Rate_1315" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="RefClk_Src_1316" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulse_Src_223D" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RefClk_Src_1316" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulse_Src_223D" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="Read" Name="SyncPulse_SyncTime_223E" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulse_MinDelayToStart_223F" DataType="Double" />
 					<Field FieldAccessPolicy="Read" Name="SyncPulse_ResetTime_2F7C" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulse_ResetDelay_2F7D" DataType="Double" />
-					<Field FieldAccessPolicy="Read" Name="SyncPulse_Term_2F85" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="Read" Name="SyncPulse_Term_2F85" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncClk_Interval_2F7E" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampTimingEngine_2A26" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_TrigType_1393" DataType="Int32" />
-					<Field FieldAccessPolicy="Read" Name="Start_Term_2F1E" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_Src_1407" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="Read" Name="Start_Term_2F1E" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_Src_1407" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_Edge_1404" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_Enable_2223" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_MinPulseWidth_2224" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_TimebaseSrc_2225" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_TimebaseSrc_2225" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigFltr_TimebaseRate_2226" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigEdge_DigSync_Enable_2227" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigPattern_Src_1410" DataType="@28f3b22361eb4d159e2aa351a14c1639" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigPattern_Src_1410" DataType="@f77955f9cb884560adbb862b8b867bb4" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigPattern_Pattern_2186" DataType="String" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_DigPattern_TrigWhen_1411" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_Src_1398" DataType="String" />
@@ -1497,7 +1746,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_Coupling_2233" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_Enable_2EE1" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_MinPulseWidth_2EE2" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_TimebaseSrc_2EE3" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_TimebaseSrc_2EE3" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigFltr_TimebaseRate_2EE4" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgEdge_DigSync_Enable_2EE5" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_Src_1400" DataType="String" />
@@ -1507,7 +1756,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_Coupling_2234" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_Enable_2EFF" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_MinPulseWidth_2F00" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_TimebaseSrc_2F01" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_TimebaseSrc_2F01" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigFltr_TimebaseRate_2F02" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_AnlgWin_DigSync_Enable_2F03" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Delay_1856" DataType="Double" />
@@ -1515,15 +1764,15 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Start_Retriggerable_190F" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_TrigType_1419" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_PretrigSamples_1445" DataType="UInt32" />
-					<Field FieldAccessPolicy="Read" Name="Ref_Term_2F1F" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_Src_1434" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="Read" Name="Ref_Term_2F1F" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_Src_1434" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_Edge_1430" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_Enable_2ED7" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_MinPulseWidth_2ED8" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_TimebaseSrc_2ED9" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_TimebaseSrc_2ED9" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigFltr_TimebaseRate_2EDA" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigEdge_DigSync_Enable_2EDB" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigPattern_Src_1437" DataType="@28f3b22361eb4d159e2aa351a14c1639" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigPattern_Src_1437" DataType="@f77955f9cb884560adbb862b8b867bb4" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigPattern_Pattern_2187" DataType="String" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_DigPattern_TrigWhen_1438" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_Src_1424" DataType="String" />
@@ -1533,7 +1782,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_Coupling_2235" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_Enable_2EE6" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_MinPulseWidth_2EE7" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_TimebaseSrc_2EE8" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_TimebaseSrc_2EE8" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigFltr_TimebaseRate_2EE9" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgEdge_DigSync_Enable_2EEA" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_Src_1426" DataType="String" />
@@ -1543,21 +1792,21 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_Coupling_1857" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_Enable_2EEB" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_MinPulseWidth_2EEC" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_TimebaseSrc_2EED" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_TimebaseSrc_2EED" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigFltr_TimebaseRate_2EEE" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AnlgWin_DigSync_Enable_2EEF" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_AutoTrig_Enable_2EC1" DataType="Boolean" />
 					<Field FieldAccessPolicy="Read" Name="Ref_AutoTriggered_2EC2" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Ref_Delay_1483" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_TrigType_1365" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_DigEdge_Src_1362" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_DigEdge_Src_1362" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_DigEdge_Edge_1360" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Adv_DigEdge_DigFltr_Enable_2238" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_TrigType_22B7" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_Interlocked_Src_22B8" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_Interlocked_Src_22B8" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Hshk_Interlocked_AssertedLvl_22B9" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_TrigType_1366" DataType="Int32" />
-					<Field FieldAccessPolicy="Read" Name="Pause_Term_2F20" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="Read" Name="Pause_Term_2F20" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_Src_1370" DataType="String" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_When_1371" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_Lvl_1369" DataType="Double" />
@@ -1565,7 +1814,7 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_Coupling_2236" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_Enable_2EF0" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_MinPulseWidth_2EF1" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_TimebaseSrc_2EF2" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_TimebaseSrc_2EF2" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigFltr_TimebaseRate_2EF3" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgLvl_DigSync_Enable_2EF4" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_Src_1373" DataType="String" />
@@ -1575,32 +1824,32 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_Coupling_2237" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_Enable_2EF5" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_MinPulseWidth_2EF6" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_TimebaseSrc_2EF7" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_TimebaseSrc_2EF7" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigFltr_TimebaseRate_2EF8" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_AnlgWin_DigSync_Enable_2EF9" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_Src_1379" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_Src_1379" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_When_1380" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_Enable_2228" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_MinPulseWidth_2229" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_TimebaseSrc_222A" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_TimebaseSrc_222A" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigFltr_TimebaseRate_222B" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigLvl_DigSync_Enable_222C" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigPattern_Src_216F" DataType="@28f3b22361eb4d159e2aa351a14c1639" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigPattern_Src_216F" DataType="@f77955f9cb884560adbb862b8b867bb4" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigPattern_Pattern_2188" DataType="String" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Pause_DigPattern_When_2170" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_TrigType_1414" DataType="Int32" />
-					<Field FieldAccessPolicy="Read" Name="ArmStart_Term_2F7F" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_Src_1417" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="Read" Name="ArmStart_Term_2F7F" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_Src_1417" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_Edge_1415" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_Enable_222D" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_MinPulseWidth_222E" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_TimebaseSrc_222F" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_TimebaseSrc_222F" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigFltr_TimebaseRate_2230" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ArmStart_DigEdge_DigSync_Enable_2231" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncType_2F80" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="RelativeTo_190A" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Offset_190B" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="ChannelsToRead_1823" DataType="@e74f888f90e84458a341d1313443a085" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChannelsToRead_1823" DataType="@10881da2b6bb4bfba9568d7837f44336" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="WfmAttr_1225" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ReadAllAvailSamp_1215" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AutoStart_1826" DataType="Boolean" />
@@ -1675,39 +1924,39 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="WaitForNextSampClkWaitMode_22EF" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ReportMissedSamp_2319" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="WriteRecoveryMode_231A" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConvClk_OutputTerm_1687" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIConvClk_OutputTerm_1687" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="Read" Name="AIConvClk_Pulse_Polarity_1688" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="10MHzRefClk_OutputTerm_226E" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="20MHzTimebase_OutputTerm_1657" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="10MHzRefClk_OutputTerm_226E" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="20MHzTimebase_OutputTerm_1657" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_OutputBehavior_186B" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_OutputTerm_1663" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_OutputTerm_1663" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_DelayOffset_21C4" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClk_Pulse_Polarity_1664" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClkTimebase_OutputTerm_18F9" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="DividedSampClkTimebase_OutputTerm_21A1" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvTrig_OutputTerm_1645" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SampClkTimebase_OutputTerm_18F9" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DividedSampClkTimebase_OutputTerm_21A1" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvTrig_OutputTerm_1645" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="Read" Name="AdvTrig_Pulse_Polarity_1646" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvTrig_Pulse_WidthUnits_1647" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvTrig_Pulse_Width_1648" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="PauseTrig_OutputTerm_1615" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="PauseTrig_OutputTerm_1615" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="PauseTrig_Lvl_ActiveLvl_1616" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="RefTrig_OutputTerm_590" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RefTrig_OutputTerm_590" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="RefTrig_Pulse_Polarity_591" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="StartTrig_OutputTerm_584" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="StartTrig_OutputTerm_584" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="StartTrig_Pulse_Polarity_585" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_OutputTerm_1651" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_OutputTerm_1651" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_Delay_1757" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_Pulse_Polarity_1652" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AdvCmpltEvent_Pulse_Width_1654" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="AIHoldCmpltEvent_OutputTerm_18ED" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="AIHoldCmpltEvent_OutputTerm_18ED" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="AIHoldCmpltEvent_Pulse_Polarity_18EE" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetectEvent_OutputTerm_2197" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetectEvent_OutputTerm_2197" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ChangeDetectEvent_Pulse_Polarity_2303" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_OutputTerm_1717" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_OutputTerm_1717" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_OutputBehavior_174F" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_Pulse_Polarity_1718" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="CtrOutEvent_Toggle_IdleState_186A" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_OutputTerm_22BA" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_OutputTerm_22BA" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_OutputBehavior_22BB" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Delay_22BC" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Interlocked_AssertedLvl_22BD" DataType="Int32" />
@@ -1715,20 +1964,20 @@
 					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Interlocked_DeassertDelay_22BF" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Pulse_Polarity_22C0" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="HshkEvent_Pulse_Width_22C1" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_OutputTerm_22B5" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_OutputTerm_22B5" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_Lvl_ActiveLvl_22B6" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_DeassertCond_2963" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForXferEvent_DeassertCondCustomThreshold_2964" DataType="UInt32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="DataActiveEvent_OutputTerm_1633" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="DataActiveEvent_OutputTerm_1633" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="DataActiveEvent_Lvl_ActiveLvl_1634" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForStartEvent_OutputTerm_1609" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForStartEvent_OutputTerm_1609" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="RdyForStartEvent_Lvl_ActiveLvl_1751" DataType="Int32" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulseEvent_OutputTerm_223C" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="WatchdogExpiredEvent_OutputTerm_21AA" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="SyncPulseEvent_OutputTerm_223C" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="WatchdogExpiredEvent_OutputTerm_21AA" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="Timeout_21A9" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_TrigType_21A3" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_TrigOnNetworkConnLoss_305D" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_DigEdge_Src_21A4" DataType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_DigEdge_Src_21A4" DataType="@dcb49a6237ba498c85f1e5b6cae25092" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirTrig_DigEdge_Edge_21A5" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirStates_DO_State_21A7" DataType="Int32" />
 					<Field FieldAccessPolicy="ReadWriteReset" Name="ExpirStates_AO_Type_305E" DataType="Int32" />
@@ -1759,34 +2008,34 @@
 			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="e166b7c5c26c444d831b8f0dc3bee489">
-			<VariableArray DereferenceType="@e74f888f90e84458a341d1313443a085" />
+			<VariableArray DereferenceType="@10881da2b6bb4bfba9568d7837f44336" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="467d077e91d7402c82f94ebec3fedb16">
-			<VariableArray DereferenceType="@025b2dd914b64a31b80d4163074f3139" />
+			<VariableArray DereferenceType="@9c437422186f4126b840717b65e20c39" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="1f6f4331596f4d79af1ea74176ce35c4">
-			<Attributed AttributedType="@caba32ef65db4d719eac82e2199df432">
+		<p.TypeReference TypeId="3d03928ab7bb47a695be501c2b3ffa6a">
+			<Attributed AttributedType="@38d4bd5496d34f7c8c3b2371e00cc6e7">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NIDAQ" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e74f888f90e84458a341d1313443a085">
-			<Attributed AttributedType="@5086ac12f0bb4518bdbf330c20bfea18">
+		<p.TypeReference TypeId="10881da2b6bb4bfba9568d7837f44336">
+			<Attributed AttributedType="@8d2090886c7f4b279a9ee74d668b9f64">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NIDAQ" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6d8c4f933f7943b1b6c53a93b99198d6">
-			<Attributed AttributedType="@e33412b84c6444b59f15b3293a8964a1">
+		<p.TypeReference TypeId="dcb49a6237ba498c85f1e5b6cae25092">
+			<Attributed AttributedType="@79a48c769ec44b9585fd696a8c65a5e2">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]MXLC" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="28f3b22361eb4d159e2aa351a14c1639">
-			<Attributed AttributedType="@c094ffe05a4e40958a92b6ddfc5a4f09">
+		<p.TypeReference TypeId="f77955f9cb884560adbb862b8b867bb4">
+			<Attributed AttributedType="@0574a4729e3f47919ade2c95a57a4d8d">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NIDAQ" />
 				</AttributeValues>
@@ -1836,24 +2085,24 @@
 				</Parameters>
 			</Event>
 		</p.TypeReference>
-		<p.TypeReference TypeId="025b2dd914b64a31b80d4163074f3139">
-			<Attributed AttributedType="@320abb7c88e54b9085208e6fdeb461c1">
+		<p.TypeReference TypeId="9c437422186f4126b840717b65e20c39">
+			<Attributed AttributedType="@3e482776a144471ab44cc7c7e5a2d8dc">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NIDAQ" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="caba32ef65db4d719eac82e2199df432">
-			<Typedef TypedefName="Scale" UnderlyingType="@976ecf0c7aef484a9395be5a5012a6d0" />
+		<p.TypeReference TypeId="38d4bd5496d34f7c8c3b2371e00cc6e7">
+			<Typedef TypedefName="Scale" UnderlyingType="@25319ee56f804ce386221e267b7e76cd" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="5086ac12f0bb4518bdbf330c20bfea18">
-			<Typedef TypedefName="Channel" UnderlyingType="@39baa6d7c59c406f997c10531efebe4e" />
+		<p.TypeReference TypeId="8d2090886c7f4b279a9ee74d668b9f64">
+			<Typedef TypedefName="Channel" UnderlyingType="@acca2e6b2d5e481d825ca17b8169e74e" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="e33412b84c6444b59f15b3293a8964a1">
-			<Typedef TypedefName="Terminal" UnderlyingType="@884636ee541b47c099adedccc1571d5b" />
+		<p.TypeReference TypeId="79a48c769ec44b9585fd696a8c65a5e2">
+			<Typedef TypedefName="Terminal" UnderlyingType="@cd0b7e5b42424b718782cb7289d20683" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="c094ffe05a4e40958a92b6ddfc5a4f09">
-			<Typedef TypedefName="Physical Channel" UnderlyingType="@d7a3cae6a3d344d5bc338dcf448c05b8" />
+		<p.TypeReference TypeId="0574a4729e3f47919ade2c95a57a4d8d">
+			<Typedef TypedefName="Physical Channel" UnderlyingType="@2d895fa4416b401488721bf7cc703725" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="a315a49774274687a87e8aa1d20510b8">
 			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="sampleInterval" DataType="UInt32" />
@@ -1864,10 +2113,10 @@
 		<p.TypeReference TypeId="480ac325dc4945948fac7de0e6795e96">
 			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="status" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="320abb7c88e54b9085208e6fdeb461c1">
-			<Typedef TypedefName="Device" UnderlyingType="@9a136174ce2e432b8e8a67b2ac1fe1ab" />
+		<p.TypeReference TypeId="3e482776a144471ab44cc7c7e5a2d8dc">
+			<Typedef TypedefName="Device" UnderlyingType="@5da5b0c7e1ba46d6ae75ef3053a34bff" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="976ecf0c7aef484a9395be5a5012a6d0">
+		<p.TypeReference TypeId="25319ee56f804ce386221e267b7e76cd">
 			<Attributed AttributedType="@9c1016552ba94a18985e997ada15b92e">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
@@ -1876,7 +2125,7 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="39baa6d7c59c406f997c10531efebe4e">
+		<p.TypeReference TypeId="acca2e6b2d5e481d825ca17b8169e74e">
 			<Attributed AttributedType="@a0d604b2a39349debcf18db0b6853628">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
@@ -1885,7 +2134,7 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="884636ee541b47c099adedccc1571d5b">
+		<p.TypeReference TypeId="cd0b7e5b42424b718782cb7289d20683">
 			<Attributed AttributedType="@d36131883b9f415d8f382ea0af833d03">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
@@ -1894,7 +2143,7 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d7a3cae6a3d344d5bc338dcf448c05b8">
+		<p.TypeReference TypeId="2d895fa4416b401488721bf7cc703725">
 			<Attributed AttributedType="@9ec1c9621491464cb55385fa8af4bcf8">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
@@ -1903,7 +2152,7 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9a136174ce2e432b8e8a67b2ac1fe1ab">
+		<p.TypeReference TypeId="5da5b0c7e1ba46d6ae75ef3053a34bff">
 			<Attributed AttributedType="@04012df88d1e483da66d06ac8c6330b0">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Tag" />
@@ -2053,7 +2302,7 @@
 					<Field FieldAccessPolicy="Read" Name="PCI_DevNum_2328" DataType="UInt32" />
 					<Field FieldAccessPolicy="Read" Name="PXI_ChassisNum_2329" DataType="UInt32" />
 					<Field FieldAccessPolicy="Read" Name="PXI_SlotNum_232A" DataType="UInt32" />
-					<Field FieldAccessPolicy="Read" Name="CompactDAQ_ChassisDevName_29B7" DataType="@025b2dd914b64a31b80d4163074f3139" />
+					<Field FieldAccessPolicy="Read" Name="CompactDAQ_ChassisDevName_29B7" DataType="@9c437422186f4126b840717b65e20c39" />
 					<Field FieldAccessPolicy="Read" Name="CompactDAQ_SlotNum_29B8" DataType="UInt32" />
 					<Field FieldAccessPolicy="Read" Name="TCPIP_Hostname_2A8B" DataType="String" />
 					<Field FieldAccessPolicy="Read" Name="TCPIP_EthernetIP_2A8C" DataType="String" />
@@ -2074,10 +2323,10 @@
 			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="c7d6a5bde2ca4ac184ef4aa9b56303c2">
-			<VariableArray DereferenceType="@28f3b22361eb4d159e2aa351a14c1639" />
+			<VariableArray DereferenceType="@f77955f9cb884560adbb862b8b867bb4" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="5496b7e9f9d247de95f9bc137d266796">
-			<VariableArray DereferenceType="@6d8c4f933f7943b1b6c53a93b99198d6" />
+			<VariableArray DereferenceType="@dcb49a6237ba498c85f1e5b6cae25092" />
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">
@@ -2138,6 +2387,24 @@
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate Height="[float]80" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]Library.sli" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Library\.sli:guess_letter">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 70">
+						<IconPanel Height="[float]70" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]70" Left="[float]0" TemplateName="Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]66" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]guess_letter" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate Height="[float]70" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[SLI]Library.sli" Top="[float]0" Width="[float]40" />
 						</IconPanel>
 					</Icon>
 				</MergeItem>
