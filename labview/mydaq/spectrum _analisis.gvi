@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="438861E9D7BF7807ED18F53863B5D702" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A846122BE5238294636FAD8757ABBD32" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.9.1.58340" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="4.9.0.0" Version="4.9.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="17.0.0.49157" FeatureSetName="DAQmx" Name="http://www.ni.com/DAQmx" OldestCompatibleVersion="1.0.0.0" Version="1.0.0.49152" />
@@ -610,7 +610,7 @@
 				<Axis Adjuster="[RangeAdjuster]FitLoosely" Id="37" IsInverted="[bool]False" Label="[string]Time" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]40" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 5, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="40" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="38" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.006, 0.007, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="38" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]41" Orientation="[SMOrientation]Vertical" Range="[IRange]-0.005, 0.005, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="41" LabelPresenter="[string]LVRelativeSeconds:0.######&gt;&gt;0.000E+0" />
 				</Axis>
 				<Plot HorizontalScale="[UIModel]37" Id="39" Label="[string]Input 0" VerticalScale="[UIModel]38" Visibility="[SMVisibility]Visible" />
@@ -654,7 +654,7 @@
 				<Axis Adjuster="[RangeAdjuster]None" Id="620" IsInverted="[bool]False" Label="[string]Frequency" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]631" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 1000, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="631" LabelPresenter="[string]LVRelativeSeconds:0.######" />
 				</Axis>
-				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="621" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]632" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 0.0018000000000000002, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
+				<Axis Adjuster="[RangeAdjuster]FitVisibleLoosely" Id="621" IsInverted="[bool]False" Label="[string]Amplitude" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]632" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 0.001, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
 					<RangeLabeledDivisions Id="632" LabelPresenter="[string]LVRelativeSeconds:G6&gt;&gt;0.000E+0" />
 				</Axis>
 				<Plot HorizontalScale="[UIModel]620" Id="622" Label="[string]Plot" VerticalScale="[UIModel]621" Visibility="[SMVisibility]Visible">
@@ -668,7 +668,7 @@
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="628" LineStroke="[SMSolidColorBrush]#ffa08bb0" PointShape="[PointShape]Rectangle" />
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="629" LineStroke="[SMSolidColorBrush]#ff7f7f7f" PointShape="[PointShape]Diamond" />
 				<PlotRenderer AreaBaseline="[FillBaseline]Zero" BarBaseline="[FillBaseline]Zero" Id="630" LineStroke="[SMSolidColorBrush]#ff3c0726" PointShape="[PointShape]Cross" />
-				<Cursor AllowablePlots="[UIModelList]622" CrosshairBrush="[SMSolidColorBrush]#ff000000" Fill="[bool]False" Foreground="[SMSolidColorBrush]#ff000000" HorizontalCrosshairLength="[double]Infinity" HorizontalScale="[UIModel]620" Id="5659" Label="[string]Cursor 1" LabelVisibility="[SMVisibility]Collapsed" SnapToData="[bool]True" SnapToWatchedPlotsOnly="[bool]True" TargetBrush="[SMSolidColorBrush]#00ffffff" TargetShape="[PointShape]Ellipse" Value="[string]System.Double, mscorlib]|[0]|[System.Double, mscorlib]|[0,000190818125129624" ValueVisibility="[SMVisibility]Visible" VerticalCrosshairLength="[double]Infinity" Visibility="[SMVisibility]Visible" />
+				<Cursor AllowablePlots="[UIModelList]622" CrosshairBrush="[SMSolidColorBrush]#ff000000" Fill="[bool]False" Foreground="[SMSolidColorBrush]#ff000000" HorizontalCrosshairLength="[double]Infinity" HorizontalScale="[UIModel]620" Id="5659" Label="[string]Cursor 1" LabelVisibility="[SMVisibility]Collapsed" SnapToData="[bool]True" SnapToWatchedPlotsOnly="[bool]True" TargetBrush="[SMSolidColorBrush]#00ffffff" TargetShape="[PointShape]Ellipse" Value="[string]System.Double, mscorlib]|[0]|[System.Double, mscorlib]|[0,000192103318919709" ValueVisibility="[SMVisibility]Visible" VerticalCrosshairLength="[double]Infinity" Visibility="[SMVisibility]Visible" />
 			</Graph>
 			<PlotLegend Graph="[UIModel]619" Height="[float]28" Id="633" Left="[float]682" Top="[float]412" Visible="[bool]False" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend DefaultCursorForeground="[SMSolidColorBrush]#ff000000" Graph="[UIModel]619" Height="[float]102" Id="634" Left="[float]80" MinHeight="[float]80" Top="[float]737" Visible="[bool]False" Width="[float]251" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -677,7 +677,7 @@
 			<Label Height="[float]16" Id="637" LabelOwner="[UIModel]619" Left="[float]75" Text="[string]spectrum" Top="[float]392" Width="[float]50" xmlns="http://www.ni.com/PanelCommon" />
 			<ArrayViewer ArrayElement="[UIModel]6519" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]288" Id="6518" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]6531" Left="[float]735" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]4" Top="[float]416" Value="{DataItemBinding Id=6517}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104" xmlns="http://www.ni.com/PanelCommon">
 				<p.DefaultElementValue>0x0</p.DefaultElementValue>
-				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6519" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]24" Name="[string]Child" Top="[float]286" Value="[double]0" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<NumericText BaseName="[string]Numeric" Height="[float]24" Id="6519" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]7" MinHeight="[float]24" Name="[string]Child" Top="[float]118" Value="[double]550.00000000000159" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			</ArrayViewer>
 			<Label Height="[float]16" Id="6531" LabelOwner="[UIModel]6518" Left="[float]735" Text="[string]out_freq out" Top="[float]396" Width="[float]66" xmlns="http://www.ni.com/PanelCommon" />
 			<ArrayViewer ArrayElement="[UIModel]6526" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" FirstIndex="[ArrayElementIndex]0" Height="[float]288" Id="6525" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]6532" Left="[float]979" Orientation="[SMOrientation]Vertical" Rows="[int]10" TabIndex="[int]5" Top="[float]416" Value="{DataItemBinding Id=6524}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104" xmlns="http://www.ni.com/PanelCommon">
