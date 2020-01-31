@@ -1,5 +1,6 @@
 .gitignore
 data
+igor
 cpp/frequency_peaks/bin
 *.dll
 *cache
